@@ -1,0 +1,739 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/danish/Desktop/BonVoyageIsLive-master/ParseStarterProject/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /home/danish/Desktop/BonVoyageIsLive-master/ParseStarterProject/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /home/danish/Desktop/BonVoyageIsLive-master/ParseStarterProject/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /home/danish/Desktop/BonVoyageIsLive-master/ParseStarterProject/src/main/AndroidManifest.xml:2:1-29:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/danish/.gradle/caches/transforms-2/files-2.1/380cbbd0623e9b22e21961fc6ec82b14/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.material:material:1.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/16de5a105d918594ea18965f8161a8bc/material-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/9fdfd89a2bfbbc537e2eaac1b425cced/play-services-9.4.0/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-cast-framework:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/5935fa41da289f80b1de99b401f19cca/jetified-play-services-cast-framework-9.4.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-cast:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/65db184f73c2ba63441f60d104fb2bf9/jetified-play-services-cast-9.4.0/AndroidManifest.xml:16:1-20:12
+MERGED from [androidx.mediarouter:mediarouter:1.0.0-alpha5] /home/danish/.gradle/caches/transforms-2/files-2.1/80d0668019c2cff7882310cc8285750e/mediarouter-1.0.0-alpha5/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/173de8c433dc5f4aca0638778cb887e6/appcompat-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.multidex:multidex:2.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/d06b4eaf3d198c3fd9dc41c28e6252e3/multidex-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-ads:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/17d697f7330f14ef811febc728a1270a/jetified-play-services-ads-9.4.0/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-ads-lite:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/08c310509b654cecca98d4763acbbc76/jetified-play-services-ads-lite-9.4.0/AndroidManifest.xml:16:1-33:12
+MERGED from [com.google.android.gms:play-services-analytics:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/4e0ecfb63a4a5f5328febb4a3f46acb2/jetified-play-services-analytics-9.4.0/AndroidManifest.xml:16:1-28:12
+MERGED from [com.google.android.gms:play-services-tagmanager:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/8ad13c97690a186d0fed9b866b8ddfdd/jetified-play-services-tagmanager-9.4.0/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/5d9ffb0d799cba347372ee6c10dae023/jetified-play-services-analytics-impl-9.4.0/AndroidManifest.xml:16:1-28:12
+MERGED from [com.google.android.gms:play-services-appinvite:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/aee64e11960a9c0d4d48345b181646e9/jetified-play-services-appinvite-9.4.0/AndroidManifest.xml:16:1-31:12
+MERGED from [com.google.android.gms:play-services-auth:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/237ee33978c05f1c12d15f4a6f628da8/jetified-play-services-auth-9.4.0/AndroidManifest.xml:16:1-33:12
+MERGED from [com.google.android.gms:play-services-auth-base:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/ef2143af14e74dada3cb28414119199e/jetified-play-services-auth-base-9.4.0/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-clearcut:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/9893834518a3597141c650994aea01a9/jetified-play-services-clearcut-9.4.0/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.firebase:firebase-config:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/6a1f717c1913410c2b8144748eb0a7ac/jetified-firebase-config-9.4.0/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-contextmanager:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/26ce2ac49f02ca37dfe9648e983dbdf8/jetified-play-services-contextmanager-9.4.0/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.firebase:firebase-crash:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/52c4e68b20a1bb1744f15eeb63e9e89f/jetified-firebase-crash-9.4.0/AndroidManifest.xml:16:1-34:12
+MERGED from [com.google.android.gms:play-services-games:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/daf6ddbeccdd932fc989172480e70655/jetified-play-services-games-9.4.0/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-drive:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/789b186ad6a1c45d22d53a12d748e756/jetified-play-services-drive-9.4.0/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.firebase:firebase-auth:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/282e9772b2859bbaa03f6f007d752f67/jetified-firebase-auth-9.4.0/AndroidManifest.xml:16:1-22:12
+MERGED from [com.google.firebase:firebase-auth-common:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/b050340b7ff2c90f2935b01730120bf6/jetified-firebase-auth-common-9.4.0/AndroidManifest.xml:16:1-22:12
+MERGED from [com.google.firebase:firebase-auth-module:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/e462233ce51368d9f7f3641a50165182/jetified-firebase-auth-module-9.4.0/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-database:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/4f2e6e0b8e48a80a7d7a0d245f880779/jetified-firebase-database-9.4.0/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-database-connection:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/7d0fcda0a432e27e6e357dc37b3f0c8b/jetified-firebase-database-connection-9.4.0/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-storage:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/7d373a04a2301fc1b365ec1bd6e1b6ec/jetified-firebase-storage-9.4.0/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-storage-common:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/883f320c701c72e3a2fc81c039a66532/jetified-firebase-storage-common-9.4.0/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-fitness:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/ad7f75de2ec485cf1478130476f22ccb/jetified-play-services-fitness-9.4.0/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-gcm:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/624196db0bc352a6362ec87562484efb/jetified-play-services-gcm-9.4.0/AndroidManifest.xml:16:1-25:12
+MERGED from [com.google.android.gms:play-services-appindexing:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/3c697b2260feac1e50f52d37191a3a3c/jetified-play-services-appindexing-9.4.0/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-wallet:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/be3739168f7c088a9be025dd7f057e88/jetified-play-services-wallet-9.4.0/AndroidManifest.xml:16:1-21:12
+MERGED from [com.google.android.gms:play-services-identity:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/dcc2fbb0ce3dd9d8f4369b5c690f27da/jetified-play-services-identity-9.4.0/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-iid:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/083eeaf0f9c4ec1f41ee84a509d788a5/jetified-play-services-iid-9.4.0/AndroidManifest.xml:16:1-25:12
+MERGED from [com.google.android.gms:play-services-location:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/1fd1343e79d912e90cba5ff368025662/jetified-play-services-location-9.4.0/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-places:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/3c85ddc2ce0515840dc4b99807f0edd5/jetified-play-services-places-9.4.0/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-maps:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/7c690d6f0564f87553d2d6692c252d1e/jetified-play-services-maps-9.4.0/AndroidManifest.xml:16:1-28:12
+MERGED from [com.google.android.gms:play-services-nearby:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/6d81a86458b38a7a381b5a9b448938da/jetified-play-services-nearby-9.4.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-panorama:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/9f621a2c290157af84858094c0d5bcf7/jetified-play-services-panorama-9.4.0/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-plus:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/bd41e40a46c1b9c66663d0ce6912fde0/jetified-play-services-plus-9.4.0/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-safetynet:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/e4db7ec265ee95c432d19a6d1248e317/jetified-play-services-safetynet-9.4.0/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-vision:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/70ff5e92d5a53727327af60aad2fa24f/jetified-play-services-vision-9.4.0/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-wearable:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/8bc5bdd66c2915f134b150b82140ad58/jetified-play-services-wearable-9.4.0/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-base:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/ce9cee113f754178f7d61e5c7126413b/jetified-play-services-base-9.4.0/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.firebase:firebase-messaging:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/6c0bf5ddc2436470ad10c218a1fa1706/jetified-firebase-messaging-9.4.0/AndroidManifest.xml:16:1-33:12
+MERGED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/9ae217a6b71265b35e3d24b6b9159f55/jetified-play-services-tagmanager-api-9.4.0/AndroidManifest.xml:16:1-39:12
+MERGED from [com.google.firebase:firebase-analytics:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/6b65e2bea58e25f28af2dd28be26194d/jetified-firebase-analytics-9.4.0/AndroidManifest.xml:16:1-42:12
+MERGED from [com.google.firebase:firebase-analytics-impl:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/a1625cd7260a80b408594afc85032f4a/jetified-firebase-analytics-impl-9.4.0/AndroidManifest.xml:16:1-42:12
+MERGED from [com.google.firebase:firebase-iid:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/72b6343544a7ad2354f7ebf368177bb0/jetified-firebase-iid-9.4.0/AndroidManifest.xml:16:1-60:12
+MERGED from [com.google.firebase:firebase-common:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/0c0e31324b8fcb2c850bd689feb6df92/jetified-firebase-common-9.4.0/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.android.gms:play-services-gass:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/4776cbbdd79276e2d649fb72455297f1/jetified-play-services-gass-9.4.0/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-tasks:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/136f64ee6b664303e9913b97951f3363/jetified-play-services-tasks-9.4.0/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/0b20bf9bd5ae3b49ade95fbf244b2d6a/jetified-play-services-basement-9.4.0/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/7e27c7d396810af644fcc2d5ec8384aa/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/560559a1d2f072346120a8facd149d09/fragment-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/9cfddc7e36e5933ee2ea725c9bea78af/vectordrawable-animated-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/00f76515dcf9be3dc13db152e89539ca/recyclerview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/e40a377249758d23414d21222f000040/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.palette:palette:1.0.0-rc01] /home/danish/.gradle/caches/transforms-2/files-2.1/e8e0ff11e54f493ed922d1b2f2dc2b88/palette-1.0.0-rc01/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/3dd2a90cf4903229672e8d620934c6ca/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/0fb8e25fc44fd9ed16295a22707e11f8/vectordrawable-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/5e86586a13aa16b26f9fc186401f8c9d/transition-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/d1290085211f6ca31e4b44ad501b0e7c/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/b685d122498cf50e728d648d063a2ff6/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/0d46da4f5ac771dd79c1a2c9880b8580/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/369c371dbc36cd3420e0891af4dc30b8/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/97f01785cab2549e8be5ef5c8b1dbcb3/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/3584c755b13ff246a30ea06b73bd9d78/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/fee859eac2601f0c53561481b8362e20/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/2d0e89544ecc30a9184b81b65acf458e/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media2:media2:1.0.0-alpha02] /home/danish/.gradle/caches/transforms-2/files-2.1/1aabd59031f2708a653744ba8e9f15dd/jetified-media2-1.0.0-alpha02/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/92a82d0e6836fc2764f8a4c5ae17cc0a/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/799659d157cba173c3391744d4f4133c/core-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/a3551ab13be12ed63d05f9b0aaa8242a/versionedparcelable-1.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/a87a91cfc12796be4a5399f6708c1bed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/271d0ad8fab014e1b69399f7396f344c/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/706aa5d8c8a43873cd63a96842e3a9e8/lifecycle-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/4b326e320f7fb8e89e2bb3879ac950d2/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/ba74e7a1df14494ca70ea72adf4fc3bf/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/5d6ed104b1267309eec087762b08ed9e/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/000772770b31839da1ff8a942bf73abb/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/30612fa1f33fcbb3e456c3a5f852366f/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/9c0d2720907bb8bd5d5976efee735314/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/d00c90699ae27cc1e1ce5e4b3e530617/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/13ac386f95e101744ae5f7d486caaa8c/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+INJECTED from /home/danish/Desktop/BonVoyageIsLive-master/ParseStarterProject/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /home/danish/Desktop/BonVoyageIsLive-master/ParseStarterProject/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /home/danish/Desktop/BonVoyageIsLive-master/ParseStarterProject/src/main/AndroidManifest.xml:2:1-29:12
+	package
+		ADDED from /home/danish/Desktop/BonVoyageIsLive-master/ParseStarterProject/src/main/AndroidManifest.xml:3:5-32
+		INJECTED from /home/danish/Desktop/BonVoyageIsLive-master/ParseStarterProject/src/main/AndroidManifest.xml
+		INJECTED from /home/danish/Desktop/BonVoyageIsLive-master/ParseStarterProject/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/danish/Desktop/BonVoyageIsLive-master/ParseStarterProject/src/main/AndroidManifest.xml
+		ADDED from /home/danish/Desktop/BonVoyageIsLive-master/ParseStarterProject/src/main/AndroidManifest.xml:2:1-29:12
+		INJECTED from /home/danish/Desktop/BonVoyageIsLive-master/ParseStarterProject/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/danish/Desktop/BonVoyageIsLive-master/ParseStarterProject/src/main/AndroidManifest.xml
+		ADDED from /home/danish/Desktop/BonVoyageIsLive-master/ParseStarterProject/src/main/AndroidManifest.xml:2:1-29:12
+		INJECTED from /home/danish/Desktop/BonVoyageIsLive-master/ParseStarterProject/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/danish/Desktop/BonVoyageIsLive-master/ParseStarterProject/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /home/danish/Desktop/BonVoyageIsLive-master/ParseStarterProject/src/main/AndroidManifest.xml:5:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/08c310509b654cecca98d4763acbbc76/jetified-play-services-ads-lite-9.4.0/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-ads-lite:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/08c310509b654cecca98d4763acbbc76/jetified-play-services-ads-lite-9.4.0/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-analytics:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/4e0ecfb63a4a5f5328febb4a3f46acb2/jetified-play-services-analytics-9.4.0/AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-analytics:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/4e0ecfb63a4a5f5328febb4a3f46acb2/jetified-play-services-analytics-9.4.0/AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/5d9ffb0d799cba347372ee6c10dae023/jetified-play-services-analytics-impl-9.4.0/AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/5d9ffb0d799cba347372ee6c10dae023/jetified-play-services-analytics-impl-9.4.0/AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-appinvite:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/aee64e11960a9c0d4d48345b181646e9/jetified-play-services-appinvite-9.4.0/AndroidManifest.xml:19:5-67
+MERGED from [com.google.android.gms:play-services-appinvite:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/aee64e11960a9c0d4d48345b181646e9/jetified-play-services-appinvite-9.4.0/AndroidManifest.xml:19:5-67
+MERGED from [com.google.firebase:firebase-crash:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/52c4e68b20a1bb1744f15eeb63e9e89f/jetified-firebase-crash-9.4.0/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-crash:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/52c4e68b20a1bb1744f15eeb63e9e89f/jetified-firebase-crash-9.4.0/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-gcm:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/624196db0bc352a6362ec87562484efb/jetified-play-services-gcm-9.4.0/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-gcm:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/624196db0bc352a6362ec87562484efb/jetified-play-services-gcm-9.4.0/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-iid:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/083eeaf0f9c4ec1f41ee84a509d788a5/jetified-play-services-iid-9.4.0/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-iid:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/083eeaf0f9c4ec1f41ee84a509d788a5/jetified-play-services-iid-9.4.0/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-maps:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/7c690d6f0564f87553d2d6692c252d1e/jetified-play-services-maps-9.4.0/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-maps:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/7c690d6f0564f87553d2d6692c252d1e/jetified-play-services-maps-9.4.0/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/9ae217a6b71265b35e3d24b6b9159f55/jetified-play-services-tagmanager-api-9.4.0/AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/9ae217a6b71265b35e3d24b6b9159f55/jetified-play-services-tagmanager-api-9.4.0/AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-analytics:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/6b65e2bea58e25f28af2dd28be26194d/jetified-firebase-analytics-9.4.0/AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-analytics:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/6b65e2bea58e25f28af2dd28be26194d/jetified-firebase-analytics-9.4.0/AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/a1625cd7260a80b408594afc85032f4a/jetified-firebase-analytics-impl-9.4.0/AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/a1625cd7260a80b408594afc85032f4a/jetified-firebase-analytics-impl-9.4.0/AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-iid:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/72b6343544a7ad2354f7ebf368177bb0/jetified-firebase-iid-9.4.0/AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-iid:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/72b6343544a7ad2354f7ebf368177bb0/jetified-firebase-iid-9.4.0/AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from /home/danish/Desktop/BonVoyageIsLive-master/ParseStarterProject/src/main/AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/danish/Desktop/BonVoyageIsLive-master/ParseStarterProject/src/main/AndroidManifest.xml:6:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/08c310509b654cecca98d4763acbbc76/jetified-play-services-ads-lite-9.4.0/AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-ads-lite:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/08c310509b654cecca98d4763acbbc76/jetified-play-services-ads-lite-9.4.0/AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-analytics:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/4e0ecfb63a4a5f5328febb4a3f46acb2/jetified-play-services-analytics-9.4.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-analytics:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/4e0ecfb63a4a5f5328febb4a3f46acb2/jetified-play-services-analytics-9.4.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/5d9ffb0d799cba347372ee6c10dae023/jetified-play-services-analytics-impl-9.4.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/5d9ffb0d799cba347372ee6c10dae023/jetified-play-services-analytics-impl-9.4.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-maps:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/7c690d6f0564f87553d2d6692c252d1e/jetified-play-services-maps-9.4.0/AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-maps:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/7c690d6f0564f87553d2d6692c252d1e/jetified-play-services-maps-9.4.0/AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-nearby:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/6d81a86458b38a7a381b5a9b448938da/jetified-play-services-nearby-9.4.0/AndroidManifest.xml:5:5-79
+MERGED from [com.google.android.gms:play-services-nearby:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/6d81a86458b38a7a381b5a9b448938da/jetified-play-services-nearby-9.4.0/AndroidManifest.xml:5:5-79
+MERGED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/9ae217a6b71265b35e3d24b6b9159f55/jetified-play-services-tagmanager-api-9.4.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/9ae217a6b71265b35e3d24b6b9159f55/jetified-play-services-tagmanager-api-9.4.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-analytics:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/6b65e2bea58e25f28af2dd28be26194d/jetified-firebase-analytics-9.4.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-analytics:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/6b65e2bea58e25f28af2dd28be26194d/jetified-firebase-analytics-9.4.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/a1625cd7260a80b408594afc85032f4a/jetified-firebase-analytics-impl-9.4.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/a1625cd7260a80b408594afc85032f4a/jetified-firebase-analytics-impl-9.4.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/72b6343544a7ad2354f7ebf368177bb0/jetified-firebase-iid-9.4.0/AndroidManifest.xml:20:5-79
+MERGED from [com.google.firebase:firebase-iid:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/72b6343544a7ad2354f7ebf368177bb0/jetified-firebase-iid-9.4.0/AndroidManifest.xml:20:5-79
+	android:name
+		ADDED from /home/danish/Desktop/BonVoyageIsLive-master/ParseStarterProject/src/main/AndroidManifest.xml:6:22-76
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /home/danish/Desktop/BonVoyageIsLive-master/ParseStarterProject/src/main/AndroidManifest.xml:7:5-80
+	android:name
+		ADDED from /home/danish/Desktop/BonVoyageIsLive-master/ParseStarterProject/src/main/AndroidManifest.xml:7:22-77
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /home/danish/Desktop/BonVoyageIsLive-master/ParseStarterProject/src/main/AndroidManifest.xml:8:5-79
+	android:name
+		ADDED from /home/danish/Desktop/BonVoyageIsLive-master/ParseStarterProject/src/main/AndroidManifest.xml:8:22-76
+application
+ADDED from /home/danish/Desktop/BonVoyageIsLive-master/ParseStarterProject/src/main/AndroidManifest.xml:10:5-27:19
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/danish/.gradle/caches/transforms-2/files-2.1/380cbbd0623e9b22e21961fc6ec82b14/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/danish/.gradle/caches/transforms-2/files-2.1/380cbbd0623e9b22e21961fc6ec82b14/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.material:material:1.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/16de5a105d918594ea18965f8161a8bc/material-1.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/16de5a105d918594ea18965f8161a8bc/material-1.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/9fdfd89a2bfbbc537e2eaac1b425cced/play-services-9.4.0/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/9fdfd89a2bfbbc537e2eaac1b425cced/play-services-9.4.0/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-cast-framework:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/5935fa41da289f80b1de99b401f19cca/jetified-play-services-cast-framework-9.4.0/AndroidManifest.xml:5:5-9:19
+MERGED from [com.google.android.gms:play-services-cast-framework:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/5935fa41da289f80b1de99b401f19cca/jetified-play-services-cast-framework-9.4.0/AndroidManifest.xml:5:5-9:19
+MERGED from [com.google.android.gms:play-services-cast:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/65db184f73c2ba63441f60d104fb2bf9/jetified-play-services-cast-9.4.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-cast:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/65db184f73c2ba63441f60d104fb2bf9/jetified-play-services-cast-9.4.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-ads-lite:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/08c310509b654cecca98d4763acbbc76/jetified-play-services-ads-lite-9.4.0/AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.android.gms:play-services-ads-lite:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/08c310509b654cecca98d4763acbbc76/jetified-play-services-ads-lite-9.4.0/AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.android.gms:play-services-analytics:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/4e0ecfb63a4a5f5328febb4a3f46acb2/jetified-play-services-analytics-9.4.0/AndroidManifest.xml:27:5-20
+MERGED from [com.google.android.gms:play-services-analytics:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/4e0ecfb63a4a5f5328febb4a3f46acb2/jetified-play-services-analytics-9.4.0/AndroidManifest.xml:27:5-20
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/5d9ffb0d799cba347372ee6c10dae023/jetified-play-services-analytics-impl-9.4.0/AndroidManifest.xml:27:5-20
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/5d9ffb0d799cba347372ee6c10dae023/jetified-play-services-analytics-impl-9.4.0/AndroidManifest.xml:27:5-20
+MERGED from [com.google.android.gms:play-services-appinvite:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/aee64e11960a9c0d4d48345b181646e9/jetified-play-services-appinvite-9.4.0/AndroidManifest.xml:20:5-30:19
+MERGED from [com.google.android.gms:play-services-appinvite:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/aee64e11960a9c0d4d48345b181646e9/jetified-play-services-appinvite-9.4.0/AndroidManifest.xml:20:5-30:19
+MERGED from [com.google.android.gms:play-services-auth:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/237ee33978c05f1c12d15f4a6f628da8/jetified-play-services-auth-9.4.0/AndroidManifest.xml:20:5-32:19
+MERGED from [com.google.android.gms:play-services-auth:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/237ee33978c05f1c12d15f4a6f628da8/jetified-play-services-auth-9.4.0/AndroidManifest.xml:20:5-32:19
+MERGED from [com.google.android.gms:play-services-clearcut:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/9893834518a3597141c650994aea01a9/jetified-play-services-clearcut-9.4.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/9893834518a3597141c650994aea01a9/jetified-play-services-clearcut-9.4.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.firebase:firebase-config:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/6a1f717c1913410c2b8144748eb0a7ac/jetified-firebase-config-9.4.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.firebase:firebase-config:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/6a1f717c1913410c2b8144748eb0a7ac/jetified-firebase-config-9.4.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-contextmanager:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/26ce2ac49f02ca37dfe9648e983dbdf8/jetified-play-services-contextmanager-9.4.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-contextmanager:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/26ce2ac49f02ca37dfe9648e983dbdf8/jetified-play-services-contextmanager-9.4.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.firebase:firebase-crash:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/52c4e68b20a1bb1744f15eeb63e9e89f/jetified-firebase-crash-9.4.0/AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.firebase:firebase-crash:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/52c4e68b20a1bb1744f15eeb63e9e89f/jetified-firebase-crash-9.4.0/AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.android.gms:play-services-games:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/daf6ddbeccdd932fc989172480e70655/jetified-play-services-games-9.4.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-games:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/daf6ddbeccdd932fc989172480e70655/jetified-play-services-games-9.4.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-drive:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/789b186ad6a1c45d22d53a12d748e756/jetified-play-services-drive-9.4.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-drive:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/789b186ad6a1c45d22d53a12d748e756/jetified-play-services-drive-9.4.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.firebase:firebase-auth:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/282e9772b2859bbaa03f6f007d752f67/jetified-firebase-auth-9.4.0/AndroidManifest.xml:20:5-21:19
+MERGED from [com.google.firebase:firebase-auth:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/282e9772b2859bbaa03f6f007d752f67/jetified-firebase-auth-9.4.0/AndroidManifest.xml:20:5-21:19
+MERGED from [com.google.firebase:firebase-auth-common:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/b050340b7ff2c90f2935b01730120bf6/jetified-firebase-auth-common-9.4.0/AndroidManifest.xml:20:5-21:19
+MERGED from [com.google.firebase:firebase-auth-common:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/b050340b7ff2c90f2935b01730120bf6/jetified-firebase-auth-common-9.4.0/AndroidManifest.xml:20:5-21:19
+MERGED from [com.google.android.gms:play-services-fitness:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/ad7f75de2ec485cf1478130476f22ccb/jetified-play-services-fitness-9.4.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-fitness:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/ad7f75de2ec485cf1478130476f22ccb/jetified-play-services-fitness-9.4.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-gcm:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/624196db0bc352a6362ec87562484efb/jetified-play-services-gcm-9.4.0/AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.gms:play-services-gcm:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/624196db0bc352a6362ec87562484efb/jetified-play-services-gcm-9.4.0/AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.gms:play-services-appindexing:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/3c697b2260feac1e50f52d37191a3a3c/jetified-play-services-appindexing-9.4.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-appindexing:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/3c697b2260feac1e50f52d37191a3a3c/jetified-play-services-appindexing-9.4.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-identity:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/dcc2fbb0ce3dd9d8f4369b5c690f27da/jetified-play-services-identity-9.4.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-identity:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/dcc2fbb0ce3dd9d8f4369b5c690f27da/jetified-play-services-identity-9.4.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-iid:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/083eeaf0f9c4ec1f41ee84a509d788a5/jetified-play-services-iid-9.4.0/AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.gms:play-services-iid:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/083eeaf0f9c4ec1f41ee84a509d788a5/jetified-play-services-iid-9.4.0/AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.gms:play-services-location:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/1fd1343e79d912e90cba5ff368025662/jetified-play-services-location-9.4.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-location:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/1fd1343e79d912e90cba5ff368025662/jetified-play-services-location-9.4.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-places:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/3c85ddc2ce0515840dc4b99807f0edd5/jetified-play-services-places-9.4.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-places:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/3c85ddc2ce0515840dc4b99807f0edd5/jetified-play-services-places-9.4.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-maps:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/7c690d6f0564f87553d2d6692c252d1e/jetified-play-services-maps-9.4.0/AndroidManifest.xml:27:5-20
+MERGED from [com.google.android.gms:play-services-maps:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/7c690d6f0564f87553d2d6692c252d1e/jetified-play-services-maps-9.4.0/AndroidManifest.xml:27:5-20
+MERGED from [com.google.android.gms:play-services-nearby:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/6d81a86458b38a7a381b5a9b448938da/jetified-play-services-nearby-9.4.0/AndroidManifest.xml:6:5-20
+MERGED from [com.google.android.gms:play-services-nearby:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/6d81a86458b38a7a381b5a9b448938da/jetified-play-services-nearby-9.4.0/AndroidManifest.xml:6:5-20
+MERGED from [com.google.android.gms:play-services-panorama:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/9f621a2c290157af84858094c0d5bcf7/jetified-play-services-panorama-9.4.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-panorama:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/9f621a2c290157af84858094c0d5bcf7/jetified-play-services-panorama-9.4.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-plus:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/bd41e40a46c1b9c66663d0ce6912fde0/jetified-play-services-plus-9.4.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-plus:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/bd41e40a46c1b9c66663d0ce6912fde0/jetified-play-services-plus-9.4.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-safetynet:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/e4db7ec265ee95c432d19a6d1248e317/jetified-play-services-safetynet-9.4.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-safetynet:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/e4db7ec265ee95c432d19a6d1248e317/jetified-play-services-safetynet-9.4.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-vision:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/70ff5e92d5a53727327af60aad2fa24f/jetified-play-services-vision-9.4.0/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-vision:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/70ff5e92d5a53727327af60aad2fa24f/jetified-play-services-vision-9.4.0/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-wearable:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/8bc5bdd66c2915f134b150b82140ad58/jetified-play-services-wearable-9.4.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-wearable:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/8bc5bdd66c2915f134b150b82140ad58/jetified-play-services-wearable-9.4.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-base:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/ce9cee113f754178f7d61e5c7126413b/jetified-play-services-base-9.4.0/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/ce9cee113f754178f7d61e5c7126413b/jetified-play-services-base-9.4.0/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.firebase:firebase-messaging:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/6c0bf5ddc2436470ad10c218a1fa1706/jetified-firebase-messaging-9.4.0/AndroidManifest.xml:20:5-32:19
+MERGED from [com.google.firebase:firebase-messaging:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/6c0bf5ddc2436470ad10c218a1fa1706/jetified-firebase-messaging-9.4.0/AndroidManifest.xml:20:5-32:19
+MERGED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/9ae217a6b71265b35e3d24b6b9159f55/jetified-play-services-tagmanager-api-9.4.0/AndroidManifest.xml:24:5-38:19
+MERGED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/9ae217a6b71265b35e3d24b6b9159f55/jetified-play-services-tagmanager-api-9.4.0/AndroidManifest.xml:24:5-38:19
+MERGED from [com.google.firebase:firebase-analytics:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/6b65e2bea58e25f28af2dd28be26194d/jetified-firebase-analytics-9.4.0/AndroidManifest.xml:26:5-41:19
+MERGED from [com.google.firebase:firebase-analytics:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/6b65e2bea58e25f28af2dd28be26194d/jetified-firebase-analytics-9.4.0/AndroidManifest.xml:26:5-41:19
+MERGED from [com.google.firebase:firebase-analytics-impl:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/a1625cd7260a80b408594afc85032f4a/jetified-firebase-analytics-impl-9.4.0/AndroidManifest.xml:26:5-41:19
+MERGED from [com.google.firebase:firebase-analytics-impl:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/a1625cd7260a80b408594afc85032f4a/jetified-firebase-analytics-impl-9.4.0/AndroidManifest.xml:26:5-41:19
+MERGED from [com.google.firebase:firebase-iid:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/72b6343544a7ad2354f7ebf368177bb0/jetified-firebase-iid-9.4.0/AndroidManifest.xml:30:5-59:19
+MERGED from [com.google.firebase:firebase-iid:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/72b6343544a7ad2354f7ebf368177bb0/jetified-firebase-iid-9.4.0/AndroidManifest.xml:30:5-59:19
+MERGED from [com.google.firebase:firebase-common:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/0c0e31324b8fcb2c850bd689feb6df92/jetified-firebase-common-9.4.0/AndroidManifest.xml:5:5-12:19
+MERGED from [com.google.firebase:firebase-common:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/0c0e31324b8fcb2c850bd689feb6df92/jetified-firebase-common-9.4.0/AndroidManifest.xml:5:5-12:19
+MERGED from [com.google.android.gms:play-services-gass:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/4776cbbdd79276e2d649fb72455297f1/jetified-play-services-gass-9.4.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-gass:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/4776cbbdd79276e2d649fb72455297f1/jetified-play-services-gass-9.4.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-tasks:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/136f64ee6b664303e9913b97951f3363/jetified-play-services-tasks-9.4.0/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/136f64ee6b664303e9913b97951f3363/jetified-play-services-tasks-9.4.0/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/0b20bf9bd5ae3b49ade95fbf244b2d6a/jetified-play-services-basement-9.4.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/0b20bf9bd5ae3b49ade95fbf244b2d6a/jetified-play-services-basement-9.4.0/AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.core:core:1.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/799659d157cba173c3391744d4f4133c/core-1.0.0/AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/799659d157cba173c3391744d4f4133c/core-1.0.0/AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/a3551ab13be12ed63d05f9b0aaa8242a/versionedparcelable-1.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/a3551ab13be12ed63d05f9b0aaa8242a/versionedparcelable-1.0.0/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/799659d157cba173c3391744d4f4133c/core-1.0.0/AndroidManifest.xml:22:18-86
+	android:label
+		ADDED from /home/danish/Desktop/BonVoyageIsLive-master/ParseStarterProject/src/main/AndroidManifest.xml:14:9-41
+	android:icon
+		ADDED from /home/danish/Desktop/BonVoyageIsLive-master/ParseStarterProject/src/main/AndroidManifest.xml:13:9-43
+	android:allowBackup
+		ADDED from /home/danish/Desktop/BonVoyageIsLive-master/ParseStarterProject/src/main/AndroidManifest.xml:12:9-35
+	android:theme
+		ADDED from /home/danish/Desktop/BonVoyageIsLive-master/ParseStarterProject/src/main/AndroidManifest.xml:15:9-40
+	android:name
+		ADDED from /home/danish/Desktop/BonVoyageIsLive-master/ParseStarterProject/src/main/AndroidManifest.xml:11:9-43
+activity#com.parse.starter.PatientProfileFillingActivity
+ADDED from /home/danish/Desktop/BonVoyageIsLive-master/ParseStarterProject/src/main/AndroidManifest.xml:16:9-76
+	android:name
+		ADDED from /home/danish/Desktop/BonVoyageIsLive-master/ParseStarterProject/src/main/AndroidManifest.xml:16:19-64
+activity#com.parse.starter.MainActivity
+ADDED from /home/danish/Desktop/BonVoyageIsLive-master/ParseStarterProject/src/main/AndroidManifest.xml:17:9-25:20
+	android:label
+		ADDED from /home/danish/Desktop/BonVoyageIsLive-master/ParseStarterProject/src/main/AndroidManifest.xml:19:13-45
+	android:name
+		ADDED from /home/danish/Desktop/BonVoyageIsLive-master/ParseStarterProject/src/main/AndroidManifest.xml:18:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/danish/Desktop/BonVoyageIsLive-master/ParseStarterProject/src/main/AndroidManifest.xml:20:13-24:29
+action#android.intent.action.MAIN
+ADDED from /home/danish/Desktop/BonVoyageIsLive-master/ParseStarterProject/src/main/AndroidManifest.xml:21:17-69
+	android:name
+		ADDED from /home/danish/Desktop/BonVoyageIsLive-master/ParseStarterProject/src/main/AndroidManifest.xml:21:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/danish/Desktop/BonVoyageIsLive-master/ParseStarterProject/src/main/AndroidManifest.xml:23:17-77
+	android:name
+		ADDED from /home/danish/Desktop/BonVoyageIsLive-master/ParseStarterProject/src/main/AndroidManifest.xml:23:27-74
+activity#com.parse.starter.UserListActivity
+ADDED from /home/danish/Desktop/BonVoyageIsLive-master/ParseStarterProject/src/main/AndroidManifest.xml:26:9-54
+	android:name
+		ADDED from /home/danish/Desktop/BonVoyageIsLive-master/ParseStarterProject/src/main/AndroidManifest.xml:26:19-51
+uses-sdk
+INJECTED from /home/danish/Desktop/BonVoyageIsLive-master/ParseStarterProject/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/danish/Desktop/BonVoyageIsLive-master/ParseStarterProject/src/main/AndroidManifest.xml
+INJECTED from /home/danish/Desktop/BonVoyageIsLive-master/ParseStarterProject/src/main/AndroidManifest.xml
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/danish/.gradle/caches/transforms-2/files-2.1/380cbbd0623e9b22e21961fc6ec82b14/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/danish/.gradle/caches/transforms-2/files-2.1/380cbbd0623e9b22e21961fc6ec82b14/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.material:material:1.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/16de5a105d918594ea18965f8161a8bc/material-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/16de5a105d918594ea18965f8161a8bc/material-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/9fdfd89a2bfbbc537e2eaac1b425cced/play-services-9.4.0/AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/9fdfd89a2bfbbc537e2eaac1b425cced/play-services-9.4.0/AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-cast-framework:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/5935fa41da289f80b1de99b401f19cca/jetified-play-services-cast-framework-9.4.0/AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-cast-framework:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/5935fa41da289f80b1de99b401f19cca/jetified-play-services-cast-framework-9.4.0/AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-cast:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/65db184f73c2ba63441f60d104fb2bf9/jetified-play-services-cast-9.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-cast:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/65db184f73c2ba63441f60d104fb2bf9/jetified-play-services-cast-9.4.0/AndroidManifest.xml:18:5-42
+MERGED from [androidx.mediarouter:mediarouter:1.0.0-alpha5] /home/danish/.gradle/caches/transforms-2/files-2.1/80d0668019c2cff7882310cc8285750e/mediarouter-1.0.0-alpha5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.mediarouter:mediarouter:1.0.0-alpha5] /home/danish/.gradle/caches/transforms-2/files-2.1/80d0668019c2cff7882310cc8285750e/mediarouter-1.0.0-alpha5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/173de8c433dc5f4aca0638778cb887e6/appcompat-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/173de8c433dc5f4aca0638778cb887e6/appcompat-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.multidex:multidex:2.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/d06b4eaf3d198c3fd9dc41c28e6252e3/multidex-2.0.0/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/d06b4eaf3d198c3fd9dc41c28e6252e3/multidex-2.0.0/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-ads:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/17d697f7330f14ef811febc728a1270a/jetified-play-services-ads-9.4.0/AndroidManifest.xml:19:5-42
+MERGED from [com.google.android.gms:play-services-ads:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/17d697f7330f14ef811febc728a1270a/jetified-play-services-ads-9.4.0/AndroidManifest.xml:19:5-42
+MERGED from [com.google.android.gms:play-services-ads-lite:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/08c310509b654cecca98d4763acbbc76/jetified-play-services-ads-lite-9.4.0/AndroidManifest.xml:23:5-42
+MERGED from [com.google.android.gms:play-services-ads-lite:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/08c310509b654cecca98d4763acbbc76/jetified-play-services-ads-lite-9.4.0/AndroidManifest.xml:23:5-42
+MERGED from [com.google.android.gms:play-services-analytics:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/4e0ecfb63a4a5f5328febb4a3f46acb2/jetified-play-services-analytics-9.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-analytics:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/4e0ecfb63a4a5f5328febb4a3f46acb2/jetified-play-services-analytics-9.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-tagmanager:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/8ad13c97690a186d0fed9b866b8ddfdd/jetified-play-services-tagmanager-9.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-tagmanager:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/8ad13c97690a186d0fed9b866b8ddfdd/jetified-play-services-tagmanager-9.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/5d9ffb0d799cba347372ee6c10dae023/jetified-play-services-analytics-impl-9.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/5d9ffb0d799cba347372ee6c10dae023/jetified-play-services-analytics-impl-9.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-appinvite:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/aee64e11960a9c0d4d48345b181646e9/jetified-play-services-appinvite-9.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-appinvite:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/aee64e11960a9c0d4d48345b181646e9/jetified-play-services-appinvite-9.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-auth:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/237ee33978c05f1c12d15f4a6f628da8/jetified-play-services-auth-9.4.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-auth:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/237ee33978c05f1c12d15f4a6f628da8/jetified-play-services-auth-9.4.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-auth-base:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/ef2143af14e74dada3cb28414119199e/jetified-play-services-auth-base-9.4.0/AndroidManifest.xml:5:5-43
+MERGED from [com.google.android.gms:play-services-auth-base:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/ef2143af14e74dada3cb28414119199e/jetified-play-services-auth-base-9.4.0/AndroidManifest.xml:5:5-43
+MERGED from [com.google.android.gms:play-services-clearcut:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/9893834518a3597141c650994aea01a9/jetified-play-services-clearcut-9.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-clearcut:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/9893834518a3597141c650994aea01a9/jetified-play-services-clearcut-9.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-config:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/6a1f717c1913410c2b8144748eb0a7ac/jetified-firebase-config-9.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-config:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/6a1f717c1913410c2b8144748eb0a7ac/jetified-firebase-config-9.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-contextmanager:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/26ce2ac49f02ca37dfe9648e983dbdf8/jetified-play-services-contextmanager-9.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-contextmanager:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/26ce2ac49f02ca37dfe9648e983dbdf8/jetified-play-services-contextmanager-9.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-crash:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/52c4e68b20a1bb1744f15eeb63e9e89f/jetified-firebase-crash-9.4.0/AndroidManifest.xml:22:5-42
+MERGED from [com.google.firebase:firebase-crash:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/52c4e68b20a1bb1744f15eeb63e9e89f/jetified-firebase-crash-9.4.0/AndroidManifest.xml:22:5-42
+MERGED from [com.google.android.gms:play-services-games:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/daf6ddbeccdd932fc989172480e70655/jetified-play-services-games-9.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-games:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/daf6ddbeccdd932fc989172480e70655/jetified-play-services-games-9.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-drive:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/789b186ad6a1c45d22d53a12d748e756/jetified-play-services-drive-9.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-drive:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/789b186ad6a1c45d22d53a12d748e756/jetified-play-services-drive-9.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-auth:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/282e9772b2859bbaa03f6f007d752f67/jetified-firebase-auth-9.4.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.firebase:firebase-auth:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/282e9772b2859bbaa03f6f007d752f67/jetified-firebase-auth-9.4.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.firebase:firebase-auth-common:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/b050340b7ff2c90f2935b01730120bf6/jetified-firebase-auth-common-9.4.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.firebase:firebase-auth-common:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/b050340b7ff2c90f2935b01730120bf6/jetified-firebase-auth-common-9.4.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.firebase:firebase-auth-module:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/e462233ce51368d9f7f3641a50165182/jetified-firebase-auth-module-9.4.0/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-auth-module:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/e462233ce51368d9f7f3641a50165182/jetified-firebase-auth-module-9.4.0/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-database:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/4f2e6e0b8e48a80a7d7a0d245f880779/jetified-firebase-database-9.4.0/AndroidManifest.xml:5:5-43
+MERGED from [com.google.firebase:firebase-database:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/4f2e6e0b8e48a80a7d7a0d245f880779/jetified-firebase-database-9.4.0/AndroidManifest.xml:5:5-43
+MERGED from [com.google.firebase:firebase-database-connection:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/7d0fcda0a432e27e6e357dc37b3f0c8b/jetified-firebase-database-connection-9.4.0/AndroidManifest.xml:5:5-43
+MERGED from [com.google.firebase:firebase-database-connection:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/7d0fcda0a432e27e6e357dc37b3f0c8b/jetified-firebase-database-connection-9.4.0/AndroidManifest.xml:5:5-43
+MERGED from [com.google.firebase:firebase-storage:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/7d373a04a2301fc1b365ec1bd6e1b6ec/jetified-firebase-storage-9.4.0/AndroidManifest.xml:5:5-43
+MERGED from [com.google.firebase:firebase-storage:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/7d373a04a2301fc1b365ec1bd6e1b6ec/jetified-firebase-storage-9.4.0/AndroidManifest.xml:5:5-43
+MERGED from [com.google.firebase:firebase-storage-common:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/883f320c701c72e3a2fc81c039a66532/jetified-firebase-storage-common-9.4.0/AndroidManifest.xml:5:5-43
+MERGED from [com.google.firebase:firebase-storage-common:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/883f320c701c72e3a2fc81c039a66532/jetified-firebase-storage-common-9.4.0/AndroidManifest.xml:5:5-43
+MERGED from [com.google.android.gms:play-services-fitness:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/ad7f75de2ec485cf1478130476f22ccb/jetified-play-services-fitness-9.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-fitness:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/ad7f75de2ec485cf1478130476f22ccb/jetified-play-services-fitness-9.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-gcm:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/624196db0bc352a6362ec87562484efb/jetified-play-services-gcm-9.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-gcm:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/624196db0bc352a6362ec87562484efb/jetified-play-services-gcm-9.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-appindexing:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/3c697b2260feac1e50f52d37191a3a3c/jetified-play-services-appindexing-9.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-appindexing:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/3c697b2260feac1e50f52d37191a3a3c/jetified-play-services-appindexing-9.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-wallet:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/be3739168f7c088a9be025dd7f057e88/jetified-play-services-wallet-9.4.0/AndroidManifest.xml:19:5-42
+MERGED from [com.google.android.gms:play-services-wallet:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/be3739168f7c088a9be025dd7f057e88/jetified-play-services-wallet-9.4.0/AndroidManifest.xml:19:5-42
+MERGED from [com.google.android.gms:play-services-identity:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/dcc2fbb0ce3dd9d8f4369b5c690f27da/jetified-play-services-identity-9.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-identity:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/dcc2fbb0ce3dd9d8f4369b5c690f27da/jetified-play-services-identity-9.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-iid:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/083eeaf0f9c4ec1f41ee84a509d788a5/jetified-play-services-iid-9.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-iid:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/083eeaf0f9c4ec1f41ee84a509d788a5/jetified-play-services-iid-9.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-location:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/1fd1343e79d912e90cba5ff368025662/jetified-play-services-location-9.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-location:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/1fd1343e79d912e90cba5ff368025662/jetified-play-services-location-9.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-places:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/3c85ddc2ce0515840dc4b99807f0edd5/jetified-play-services-places-9.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-places:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/3c85ddc2ce0515840dc4b99807f0edd5/jetified-play-services-places-9.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-maps:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/7c690d6f0564f87553d2d6692c252d1e/jetified-play-services-maps-9.4.0/AndroidManifest.xml:26:5-42
+MERGED from [com.google.android.gms:play-services-maps:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/7c690d6f0564f87553d2d6692c252d1e/jetified-play-services-maps-9.4.0/AndroidManifest.xml:26:5-42
+MERGED from [com.google.android.gms:play-services-nearby:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/6d81a86458b38a7a381b5a9b448938da/jetified-play-services-nearby-9.4.0/AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-nearby:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/6d81a86458b38a7a381b5a9b448938da/jetified-play-services-nearby-9.4.0/AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-panorama:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/9f621a2c290157af84858094c0d5bcf7/jetified-play-services-panorama-9.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-panorama:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/9f621a2c290157af84858094c0d5bcf7/jetified-play-services-panorama-9.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-plus:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/bd41e40a46c1b9c66663d0ce6912fde0/jetified-play-services-plus-9.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-plus:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/bd41e40a46c1b9c66663d0ce6912fde0/jetified-play-services-plus-9.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-safetynet:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/e4db7ec265ee95c432d19a6d1248e317/jetified-play-services-safetynet-9.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-safetynet:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/e4db7ec265ee95c432d19a6d1248e317/jetified-play-services-safetynet-9.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-vision:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/70ff5e92d5a53727327af60aad2fa24f/jetified-play-services-vision-9.4.0/AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-vision:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/70ff5e92d5a53727327af60aad2fa24f/jetified-play-services-vision-9.4.0/AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-wearable:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/8bc5bdd66c2915f134b150b82140ad58/jetified-play-services-wearable-9.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-wearable:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/8bc5bdd66c2915f134b150b82140ad58/jetified-play-services-wearable-9.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/ce9cee113f754178f7d61e5c7126413b/jetified-play-services-base-9.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/ce9cee113f754178f7d61e5c7126413b/jetified-play-services-base-9.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-messaging:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/6c0bf5ddc2436470ad10c218a1fa1706/jetified-firebase-messaging-9.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-messaging:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/6c0bf5ddc2436470ad10c218a1fa1706/jetified-firebase-messaging-9.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/9ae217a6b71265b35e3d24b6b9159f55/jetified-play-services-tagmanager-api-9.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/9ae217a6b71265b35e3d24b6b9159f55/jetified-play-services-tagmanager-api-9.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-analytics:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/6b65e2bea58e25f28af2dd28be26194d/jetified-firebase-analytics-9.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-analytics:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/6b65e2bea58e25f28af2dd28be26194d/jetified-firebase-analytics-9.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-analytics-impl:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/a1625cd7260a80b408594afc85032f4a/jetified-firebase-analytics-impl-9.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-analytics-impl:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/a1625cd7260a80b408594afc85032f4a/jetified-firebase-analytics-impl-9.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-iid:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/72b6343544a7ad2354f7ebf368177bb0/jetified-firebase-iid-9.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-iid:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/72b6343544a7ad2354f7ebf368177bb0/jetified-firebase-iid-9.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-common:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/0c0e31324b8fcb2c850bd689feb6df92/jetified-firebase-common-9.4.0/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-common:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/0c0e31324b8fcb2c850bd689feb6df92/jetified-firebase-common-9.4.0/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-gass:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/4776cbbdd79276e2d649fb72455297f1/jetified-play-services-gass-9.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-gass:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/4776cbbdd79276e2d649fb72455297f1/jetified-play-services-gass-9.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-tasks:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/136f64ee6b664303e9913b97951f3363/jetified-play-services-tasks-9.4.0/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/136f64ee6b664303e9913b97951f3363/jetified-play-services-tasks-9.4.0/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/0b20bf9bd5ae3b49ade95fbf244b2d6a/jetified-play-services-basement-9.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/0b20bf9bd5ae3b49ade95fbf244b2d6a/jetified-play-services-basement-9.4.0/AndroidManifest.xml:18:5-42
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/7e27c7d396810af644fcc2d5ec8384aa/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/7e27c7d396810af644fcc2d5ec8384aa/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/560559a1d2f072346120a8facd149d09/fragment-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/560559a1d2f072346120a8facd149d09/fragment-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/9cfddc7e36e5933ee2ea725c9bea78af/vectordrawable-animated-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/9cfddc7e36e5933ee2ea725c9bea78af/vectordrawable-animated-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/00f76515dcf9be3dc13db152e89539ca/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/00f76515dcf9be3dc13db152e89539ca/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/e40a377249758d23414d21222f000040/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/e40a377249758d23414d21222f000040/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.palette:palette:1.0.0-rc01] /home/danish/.gradle/caches/transforms-2/files-2.1/e8e0ff11e54f493ed922d1b2f2dc2b88/palette-1.0.0-rc01/AndroidManifest.xml:20:5-44
+MERGED from [androidx.palette:palette:1.0.0-rc01] /home/danish/.gradle/caches/transforms-2/files-2.1/e8e0ff11e54f493ed922d1b2f2dc2b88/palette-1.0.0-rc01/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/3dd2a90cf4903229672e8d620934c6ca/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/3dd2a90cf4903229672e8d620934c6ca/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/0fb8e25fc44fd9ed16295a22707e11f8/vectordrawable-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/0fb8e25fc44fd9ed16295a22707e11f8/vectordrawable-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/5e86586a13aa16b26f9fc186401f8c9d/transition-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/5e86586a13aa16b26f9fc186401f8c9d/transition-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/d1290085211f6ca31e4b44ad501b0e7c/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/d1290085211f6ca31e4b44ad501b0e7c/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/b685d122498cf50e728d648d063a2ff6/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/b685d122498cf50e728d648d063a2ff6/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/0d46da4f5ac771dd79c1a2c9880b8580/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/0d46da4f5ac771dd79c1a2c9880b8580/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/369c371dbc36cd3420e0891af4dc30b8/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/369c371dbc36cd3420e0891af4dc30b8/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/97f01785cab2549e8be5ef5c8b1dbcb3/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/97f01785cab2549e8be5ef5c8b1dbcb3/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/3584c755b13ff246a30ea06b73bd9d78/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/3584c755b13ff246a30ea06b73bd9d78/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/fee859eac2601f0c53561481b8362e20/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/fee859eac2601f0c53561481b8362e20/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/2d0e89544ecc30a9184b81b65acf458e/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/2d0e89544ecc30a9184b81b65acf458e/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media2:media2:1.0.0-alpha02] /home/danish/.gradle/caches/transforms-2/files-2.1/1aabd59031f2708a653744ba8e9f15dd/jetified-media2-1.0.0-alpha02/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media2:media2:1.0.0-alpha02] /home/danish/.gradle/caches/transforms-2/files-2.1/1aabd59031f2708a653744ba8e9f15dd/jetified-media2-1.0.0-alpha02/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/92a82d0e6836fc2764f8a4c5ae17cc0a/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/92a82d0e6836fc2764f8a4c5ae17cc0a/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/799659d157cba173c3391744d4f4133c/core-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/799659d157cba173c3391744d4f4133c/core-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/a3551ab13be12ed63d05f9b0aaa8242a/versionedparcelable-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/a3551ab13be12ed63d05f9b0aaa8242a/versionedparcelable-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/a87a91cfc12796be4a5399f6708c1bed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/a87a91cfc12796be4a5399f6708c1bed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/271d0ad8fab014e1b69399f7396f344c/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/271d0ad8fab014e1b69399f7396f344c/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/706aa5d8c8a43873cd63a96842e3a9e8/lifecycle-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/706aa5d8c8a43873cd63a96842e3a9e8/lifecycle-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/4b326e320f7fb8e89e2bb3879ac950d2/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/4b326e320f7fb8e89e2bb3879ac950d2/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/ba74e7a1df14494ca70ea72adf4fc3bf/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/ba74e7a1df14494ca70ea72adf4fc3bf/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/5d6ed104b1267309eec087762b08ed9e/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/5d6ed104b1267309eec087762b08ed9e/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/000772770b31839da1ff8a942bf73abb/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/000772770b31839da1ff8a942bf73abb/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/30612fa1f33fcbb3e456c3a5f852366f/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/30612fa1f33fcbb3e456c3a5f852366f/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/9c0d2720907bb8bd5d5976efee735314/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/9c0d2720907bb8bd5d5976efee735314/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/d00c90699ae27cc1e1ce5e4b3e530617/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/d00c90699ae27cc1e1ce5e4b3e530617/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/13ac386f95e101744ae5f7d486caaa8c/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/danish/.gradle/caches/transforms-2/files-2.1/13ac386f95e101744ae5f7d486caaa8c/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+INJECTED from /home/danish/Desktop/BonVoyageIsLive-master/ParseStarterProject/src/main/AndroidManifest.xml
+INJECTED from /home/danish/Desktop/BonVoyageIsLive-master/ParseStarterProject/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/danish/Desktop/BonVoyageIsLive-master/ParseStarterProject/src/main/AndroidManifest.xml
+		ADDED from /home/danish/Desktop/BonVoyageIsLive-master/ParseStarterProject/src/main/AndroidManifest.xml
+		INJECTED from /home/danish/Desktop/BonVoyageIsLive-master/ParseStarterProject/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/danish/Desktop/BonVoyageIsLive-master/ParseStarterProject/src/main/AndroidManifest.xml
+		ADDED from /home/danish/Desktop/BonVoyageIsLive-master/ParseStarterProject/src/main/AndroidManifest.xml
+		INJECTED from /home/danish/Desktop/BonVoyageIsLive-master/ParseStarterProject/src/main/AndroidManifest.xml
+receiver#com.google.android.gms.cast.framework.media.MediaIntentReceiver
+ADDED from [com.google.android.gms:play-services-cast-framework:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/5935fa41da289f80b1de99b401f19cca/jetified-play-services-cast-framework-9.4.0/AndroidManifest.xml:6:9-100
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/5935fa41da289f80b1de99b401f19cca/jetified-play-services-cast-framework-9.4.0/AndroidManifest.xml:6:19-97
+service#com.google.android.gms.cast.framework.media.MediaNotificationService
+ADDED from [com.google.android.gms:play-services-cast-framework:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/5935fa41da289f80b1de99b401f19cca/jetified-play-services-cast-framework-9.4.0/AndroidManifest.xml:7:9-104
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/5935fa41da289f80b1de99b401f19cca/jetified-play-services-cast-framework-9.4.0/AndroidManifest.xml:7:18-101
+service#com.google.android.gms.cast.framework.ReconnectionService
+ADDED from [com.google.android.gms:play-services-cast-framework:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/5935fa41da289f80b1de99b401f19cca/jetified-play-services-cast-framework-9.4.0/AndroidManifest.xml:8:9-92
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/5935fa41da289f80b1de99b401f19cca/jetified-play-services-cast-framework-9.4.0/AndroidManifest.xml:8:18-90
+activity#com.google.android.gms.ads.AdActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/08c310509b654cecca98d4763acbbc76/jetified-play-services-ads-lite-9.4.0/AndroidManifest.xml:26:9-29:64
+	android:configChanges
+		ADDED from [com.google.android.gms:play-services-ads-lite:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/08c310509b654cecca98d4763acbbc76/jetified-play-services-ads-lite-9.4.0/AndroidManifest.xml:28:13-122
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/08c310509b654cecca98d4763acbbc76/jetified-play-services-ads-lite-9.4.0/AndroidManifest.xml:29:13-61
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/08c310509b654cecca98d4763acbbc76/jetified-play-services-ads-lite-9.4.0/AndroidManifest.xml:27:13-65
+activity#com.google.android.gms.ads.purchase.InAppPurchaseActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/08c310509b654cecca98d4763acbbc76/jetified-play-services-ads-lite-9.4.0/AndroidManifest.xml:30:9-31:52
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/08c310509b654cecca98d4763acbbc76/jetified-play-services-ads-lite-9.4.0/AndroidManifest.xml:31:13-50
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/08c310509b654cecca98d4763acbbc76/jetified-play-services-ads-lite-9.4.0/AndroidManifest.xml:30:19-91
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-analytics:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/4e0ecfb63a4a5f5328febb4a3f46acb2/jetified-play-services-analytics-9.4.0/AndroidManifest.xml:25:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/5d9ffb0d799cba347372ee6c10dae023/jetified-play-services-analytics-impl-9.4.0/AndroidManifest.xml:25:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/5d9ffb0d799cba347372ee6c10dae023/jetified-play-services-analytics-impl-9.4.0/AndroidManifest.xml:25:5-67
+MERGED from [com.google.firebase:firebase-analytics:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/6b65e2bea58e25f28af2dd28be26194d/jetified-firebase-analytics-9.4.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-analytics:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/6b65e2bea58e25f28af2dd28be26194d/jetified-firebase-analytics-9.4.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/a1625cd7260a80b408594afc85032f4a/jetified-firebase-analytics-impl-9.4.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/a1625cd7260a80b408594afc85032f4a/jetified-firebase-analytics-impl-9.4.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-iid:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/72b6343544a7ad2354f7ebf368177bb0/jetified-firebase-iid-9.4.0/AndroidManifest.xml:22:5-68
+MERGED from [com.google.firebase:firebase-iid:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/72b6343544a7ad2354f7ebf368177bb0/jetified-firebase-iid-9.4.0/AndroidManifest.xml:22:5-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-analytics:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/4e0ecfb63a4a5f5328febb4a3f46acb2/jetified-play-services-analytics-9.4.0/AndroidManifest.xml:25:22-65
+activity#com.google.android.gms.appinvite.PreviewActivity
+ADDED from [com.google.android.gms:play-services-appinvite:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/aee64e11960a9c0d4d48345b181646e9/jetified-play-services-appinvite-9.4.0/AndroidManifest.xml:21:9-29:20
+	android:exported
+		ADDED from [com.google.android.gms:play-services-appinvite:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/aee64e11960a9c0d4d48345b181646e9/jetified-play-services-appinvite-9.4.0/AndroidManifest.xml:23:17-40
+	android:theme
+		ADDED from [com.google.android.gms:play-services-appinvite:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/aee64e11960a9c0d4d48345b181646e9/jetified-play-services-appinvite-9.4.0/AndroidManifest.xml:24:17-63
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/aee64e11960a9c0d4d48345b181646e9/jetified-play-services-appinvite-9.4.0/AndroidManifest.xml:22:17-48
+intent-filter#action:name:com.google.android.gms.appinvite.ACTION_PREVIEW+category:name:android.intent.category.DEFAULT
+ADDED from [com.google.android.gms:play-services-appinvite:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/aee64e11960a9c0d4d48345b181646e9/jetified-play-services-appinvite-9.4.0/AndroidManifest.xml:25:13-28:29
+action#com.google.android.gms.appinvite.ACTION_PREVIEW
+ADDED from [com.google.android.gms:play-services-appinvite:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/aee64e11960a9c0d4d48345b181646e9/jetified-play-services-appinvite-9.4.0/AndroidManifest.xml:26:17-89
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/aee64e11960a9c0d4d48345b181646e9/jetified-play-services-appinvite-9.4.0/AndroidManifest.xml:26:25-87
+category#android.intent.category.DEFAULT
+ADDED from [com.google.android.gms:play-services-appinvite:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/aee64e11960a9c0d4d48345b181646e9/jetified-play-services-appinvite-9.4.0/AndroidManifest.xml:27:17-75
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/aee64e11960a9c0d4d48345b181646e9/jetified-play-services-appinvite-9.4.0/AndroidManifest.xml:27:27-73
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/237ee33978c05f1c12d15f4a6f628da8/jetified-play-services-auth-9.4.0/AndroidManifest.xml:21:9-24:46
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/237ee33978c05f1c12d15f4a6f628da8/jetified-play-services-auth-9.4.0/AndroidManifest.xml:23:19-52
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/237ee33978c05f1c12d15f4a6f628da8/jetified-play-services-auth-9.4.0/AndroidManifest.xml:24:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/237ee33978c05f1c12d15f4a6f628da8/jetified-play-services-auth-9.4.0/AndroidManifest.xml:22:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/237ee33978c05f1c12d15f4a6f628da8/jetified-play-services-auth-9.4.0/AndroidManifest.xml:21:19-68
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/237ee33978c05f1c12d15f4a6f628da8/jetified-play-services-auth-9.4.0/AndroidManifest.xml:28:9-31:110
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/237ee33978c05f1c12d15f4a6f628da8/jetified-play-services-auth-9.4.0/AndroidManifest.xml:30:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/237ee33978c05f1c12d15f4a6f628da8/jetified-play-services-auth-9.4.0/AndroidManifest.xml:31:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/237ee33978c05f1c12d15f4a6f628da8/jetified-play-services-auth-9.4.0/AndroidManifest.xml:29:13-58
+service#com.google.firebase.crash.internal.service.FirebaseCrashReceiverService
+ADDED from [com.google.firebase:firebase-crash:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/52c4e68b20a1bb1744f15eeb63e9e89f/jetified-firebase-crash-9.4.0/AndroidManifest.xml:26:9-27:50
+	android:process
+		ADDED from [com.google.firebase:firebase-crash:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/52c4e68b20a1bb1744f15eeb63e9e89f/jetified-firebase-crash-9.4.0/AndroidManifest.xml:27:13-48
+	android:name
+		ADDED from [com.google.firebase:firebase-crash:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/52c4e68b20a1bb1744f15eeb63e9e89f/jetified-firebase-crash-9.4.0/AndroidManifest.xml:26:18-79
+service#com.google.firebase.crash.internal.service.FirebaseCrashSenderService
+ADDED from [com.google.firebase:firebase-crash:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/52c4e68b20a1bb1744f15eeb63e9e89f/jetified-firebase-crash-9.4.0/AndroidManifest.xml:29:9-30:50
+	android:process
+		ADDED from [com.google.firebase:firebase-crash:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/52c4e68b20a1bb1744f15eeb63e9e89f/jetified-firebase-crash-9.4.0/AndroidManifest.xml:30:13-48
+	android:name
+		ADDED from [com.google.firebase:firebase-crash:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/52c4e68b20a1bb1744f15eeb63e9e89f/jetified-firebase-crash-9.4.0/AndroidManifest.xml:29:18-77
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.android.gms:play-services-gcm:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/624196db0bc352a6362ec87562484efb/jetified-play-services-gcm-9.4.0/AndroidManifest.xml:21:5-82
+MERGED from [com.google.android.gms:play-services-iid:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/083eeaf0f9c4ec1f41ee84a509d788a5/jetified-play-services-iid-9.4.0/AndroidManifest.xml:21:5-82
+MERGED from [com.google.android.gms:play-services-iid:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/083eeaf0f9c4ec1f41ee84a509d788a5/jetified-play-services-iid-9.4.0/AndroidManifest.xml:21:5-82
+MERGED from [com.google.firebase:firebase-iid:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/72b6343544a7ad2354f7ebf368177bb0/jetified-firebase-iid-9.4.0/AndroidManifest.xml:23:5-82
+MERGED from [com.google.firebase:firebase-iid:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/72b6343544a7ad2354f7ebf368177bb0/jetified-firebase-iid-9.4.0/AndroidManifest.xml:23:5-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-gcm:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/624196db0bc352a6362ec87562484efb/jetified-play-services-gcm-9.4.0/AndroidManifest.xml:21:22-79
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/7c690d6f0564f87553d2d6692c252d1e/jetified-play-services-maps-9.4.0/AndroidManifest.xml:22:5-24:33
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/7c690d6f0564f87553d2d6692c252d1e/jetified-play-services-maps-9.4.0/AndroidManifest.xml:23:8-40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/7c690d6f0564f87553d2d6692c252d1e/jetified-play-services-maps-9.4.0/AndroidManifest.xml:24:8-31
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/ce9cee113f754178f7d61e5c7126413b/jetified-play-services-base-9.4.0/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/ce9cee113f754178f7d61e5c7126413b/jetified-play-services-base-9.4.0/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/ce9cee113f754178f7d61e5c7126413b/jetified-play-services-base-9.4.0/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/ce9cee113f754178f7d61e5c7126413b/jetified-play-services-base-9.4.0/AndroidManifest.xml:20:19-85
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/6c0bf5ddc2436470ad10c218a1fa1706/jetified-firebase-messaging-9.4.0/AndroidManifest.xml:24:9-30:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/6c0bf5ddc2436470ad10c218a1fa1706/jetified-firebase-messaging-9.4.0/AndroidManifest.xml:26:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/6c0bf5ddc2436470ad10c218a1fa1706/jetified-firebase-messaging-9.4.0/AndroidManifest.xml:25:13-82
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/6c0bf5ddc2436470ad10c218a1fa1706/jetified-firebase-messaging-9.4.0/AndroidManifest.xml:27:13-29:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-messaging:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/6c0bf5ddc2436470ad10c218a1fa1706/jetified-firebase-messaging-9.4.0/AndroidManifest.xml:27:28-51
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/6c0bf5ddc2436470ad10c218a1fa1706/jetified-firebase-messaging-9.4.0/AndroidManifest.xml:28:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/6c0bf5ddc2436470ad10c218a1fa1706/jetified-firebase-messaging-9.4.0/AndroidManifest.xml:28:25-75
+service#com.google.android.gms.tagmanager.TagManagerService
+ADDED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/9ae217a6b71265b35e3d24b6b9159f55/jetified-play-services-tagmanager-api-9.4.0/AndroidManifest.xml:25:9-27:42
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/9ae217a6b71265b35e3d24b6b9159f55/jetified-play-services-tagmanager-api-9.4.0/AndroidManifest.xml:27:17-39
+	android:exported
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/9ae217a6b71265b35e3d24b6b9159f55/jetified-play-services-tagmanager-api-9.4.0/AndroidManifest.xml:26:17-41
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/9ae217a6b71265b35e3d24b6b9159f55/jetified-play-services-tagmanager-api-9.4.0/AndroidManifest.xml:25:18-84
+activity#com.google.android.gms.tagmanager.TagManagerPreviewActivity
+ADDED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/9ae217a6b71265b35e3d24b6b9159f55/jetified-play-services-tagmanager-api-9.4.0/AndroidManifest.xml:28:9-37:20
+	android:noHistory
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/9ae217a6b71265b35e3d24b6b9159f55/jetified-play-services-tagmanager-api-9.4.0/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/9ae217a6b71265b35e3d24b6b9159f55/jetified-play-services-tagmanager-api-9.4.0/AndroidManifest.xml:29:13-87
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:tagmanager.c.${applicationId}
+ADDED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/9ae217a6b71265b35e3d24b6b9159f55/jetified-play-services-tagmanager-api-9.4.0/AndroidManifest.xml:31:13-36:29
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:tagmanager.c.com.parse.starter
+ADDED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/9ae217a6b71265b35e3d24b6b9159f55/jetified-play-services-tagmanager-api-9.4.0/AndroidManifest.xml:31:13-36:29
+data
+ADDED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/9ae217a6b71265b35e3d24b6b9159f55/jetified-play-services-tagmanager-api-9.4.0/AndroidManifest.xml:32:17-72
+	android:scheme
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/9ae217a6b71265b35e3d24b6b9159f55/jetified-play-services-tagmanager-api-9.4.0/AndroidManifest.xml:32:23-69
+action#android.intent.action.VIEW
+ADDED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/9ae217a6b71265b35e3d24b6b9159f55/jetified-play-services-tagmanager-api-9.4.0/AndroidManifest.xml:33:17-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/9ae217a6b71265b35e3d24b6b9159f55/jetified-play-services-tagmanager-api-9.4.0/AndroidManifest.xml:33:25-66
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/9ae217a6b71265b35e3d24b6b9159f55/jetified-play-services-tagmanager-api-9.4.0/AndroidManifest.xml:35:17-77
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/9ae217a6b71265b35e3d24b6b9159f55/jetified-play-services-tagmanager-api-9.4.0/AndroidManifest.xml:35:27-75
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/6b65e2bea58e25f28af2dd28be26194d/jetified-firebase-analytics-9.4.0/AndroidManifest.xml:28:7-34:18
+MERGED from [com.google.firebase:firebase-analytics-impl:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/a1625cd7260a80b408594afc85032f4a/jetified-firebase-analytics-impl-9.4.0/AndroidManifest.xml:28:7-34:18
+MERGED from [com.google.firebase:firebase-analytics-impl:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/a1625cd7260a80b408594afc85032f4a/jetified-firebase-analytics-impl-9.4.0/AndroidManifest.xml:28:7-34:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/6b65e2bea58e25f28af2dd28be26194d/jetified-firebase-analytics-9.4.0/AndroidManifest.xml:30:11-33
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/6b65e2bea58e25f28af2dd28be26194d/jetified-firebase-analytics-9.4.0/AndroidManifest.xml:29:11-83
+intent-filter#action:name:com.google.android.gms.measurement.UPLOAD
+ADDED from [com.google.firebase:firebase-analytics:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/6b65e2bea58e25f28af2dd28be26194d/jetified-firebase-analytics-9.4.0/AndroidManifest.xml:31:9-33:25
+action#com.google.android.gms.measurement.UPLOAD
+ADDED from [com.google.firebase:firebase-analytics:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/6b65e2bea58e25f28af2dd28be26194d/jetified-firebase-analytics-9.4.0/AndroidManifest.xml:32:11-77
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/6b65e2bea58e25f28af2dd28be26194d/jetified-firebase-analytics-9.4.0/AndroidManifest.xml:32:19-75
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/6b65e2bea58e25f28af2dd28be26194d/jetified-firebase-analytics-9.4.0/AndroidManifest.xml:36:7-39:37
+MERGED from [com.google.firebase:firebase-analytics-impl:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/a1625cd7260a80b408594afc85032f4a/jetified-firebase-analytics-impl-9.4.0/AndroidManifest.xml:36:7-39:37
+MERGED from [com.google.firebase:firebase-analytics-impl:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/a1625cd7260a80b408594afc85032f4a/jetified-firebase-analytics-impl-9.4.0/AndroidManifest.xml:36:7-39:37
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/6b65e2bea58e25f28af2dd28be26194d/jetified-firebase-analytics-9.4.0/AndroidManifest.xml:38:11-33
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/6b65e2bea58e25f28af2dd28be26194d/jetified-firebase-analytics-9.4.0/AndroidManifest.xml:39:11-35
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/6b65e2bea58e25f28af2dd28be26194d/jetified-firebase-analytics-9.4.0/AndroidManifest.xml:37:11-82
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/72b6343544a7ad2354f7ebf368177bb0/jetified-firebase-iid-9.4.0/AndroidManifest.xml:25:5-26:47
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/72b6343544a7ad2354f7ebf368177bb0/jetified-firebase-iid-9.4.0/AndroidManifest.xml:26:9-44
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/72b6343544a7ad2354f7ebf368177bb0/jetified-firebase-iid-9.4.0/AndroidManifest.xml:25:17-71
+permission#com.parse.starter.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/72b6343544a7ad2354f7ebf368177bb0/jetified-firebase-iid-9.4.0/AndroidManifest.xml:25:5-26:47
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/72b6343544a7ad2354f7ebf368177bb0/jetified-firebase-iid-9.4.0/AndroidManifest.xml:26:9-44
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/72b6343544a7ad2354f7ebf368177bb0/jetified-firebase-iid-9.4.0/AndroidManifest.xml:25:17-71
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/72b6343544a7ad2354f7ebf368177bb0/jetified-firebase-iid-9.4.0/AndroidManifest.xml:28:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/72b6343544a7ad2354f7ebf368177bb0/jetified-firebase-iid-9.4.0/AndroidManifest.xml:28:22-76
+uses-permission#com.parse.starter.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/72b6343544a7ad2354f7ebf368177bb0/jetified-firebase-iid-9.4.0/AndroidManifest.xml:28:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/72b6343544a7ad2354f7ebf368177bb0/jetified-firebase-iid-9.4.0/AndroidManifest.xml:28:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/72b6343544a7ad2354f7ebf368177bb0/jetified-firebase-iid-9.4.0/AndroidManifest.xml:32:9-41:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/72b6343544a7ad2354f7ebf368177bb0/jetified-firebase-iid-9.4.0/AndroidManifest.xml:34:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/72b6343544a7ad2354f7ebf368177bb0/jetified-firebase-iid-9.4.0/AndroidManifest.xml:35:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/72b6343544a7ad2354f7ebf368177bb0/jetified-firebase-iid-9.4.0/AndroidManifest.xml:33:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+action:name:com.google.android.c2dm.intent.REGISTRATION+category:name:${applicationId}
+ADDED from [com.google.firebase:firebase-iid:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/72b6343544a7ad2354f7ebf368177bb0/jetified-firebase-iid-9.4.0/AndroidManifest.xml:36:13-40:29
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+action:name:com.google.android.c2dm.intent.REGISTRATION+category:name:com.parse.starter
+ADDED from [com.google.firebase:firebase-iid:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/72b6343544a7ad2354f7ebf368177bb0/jetified-firebase-iid-9.4.0/AndroidManifest.xml:36:13-40:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/72b6343544a7ad2354f7ebf368177bb0/jetified-firebase-iid-9.4.0/AndroidManifest.xml:37:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/72b6343544a7ad2354f7ebf368177bb0/jetified-firebase-iid-9.4.0/AndroidManifest.xml:37:25-78
+action#com.google.android.c2dm.intent.REGISTRATION
+ADDED from [com.google.firebase:firebase-iid:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/72b6343544a7ad2354f7ebf368177bb0/jetified-firebase-iid-9.4.0/AndroidManifest.xml:38:17-86
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/72b6343544a7ad2354f7ebf368177bb0/jetified-firebase-iid-9.4.0/AndroidManifest.xml:38:25-83
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/72b6343544a7ad2354f7ebf368177bb0/jetified-firebase-iid-9.4.0/AndroidManifest.xml:39:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/72b6343544a7ad2354f7ebf368177bb0/jetified-firebase-iid-9.4.0/AndroidManifest.xml:39:27-58
+category#com.parse.starter
+ADDED from [com.google.firebase:firebase-iid:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/72b6343544a7ad2354f7ebf368177bb0/jetified-firebase-iid-9.4.0/AndroidManifest.xml:39:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/72b6343544a7ad2354f7ebf368177bb0/jetified-firebase-iid-9.4.0/AndroidManifest.xml:39:27-58
+receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
+ADDED from [com.google.firebase:firebase-iid:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/72b6343544a7ad2354f7ebf368177bb0/jetified-firebase-iid-9.4.0/AndroidManifest.xml:45:9-47:40
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/72b6343544a7ad2354f7ebf368177bb0/jetified-firebase-iid-9.4.0/AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/72b6343544a7ad2354f7ebf368177bb0/jetified-firebase-iid-9.4.0/AndroidManifest.xml:46:13-86
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/72b6343544a7ad2354f7ebf368177bb0/jetified-firebase-iid-9.4.0/AndroidManifest.xml:51:9-57:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/72b6343544a7ad2354f7ebf368177bb0/jetified-firebase-iid-9.4.0/AndroidManifest.xml:53:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/72b6343544a7ad2354f7ebf368177bb0/jetified-firebase-iid-9.4.0/AndroidManifest.xml:52:13-77
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/72b6343544a7ad2354f7ebf368177bb0/jetified-firebase-iid-9.4.0/AndroidManifest.xml:54:13-56:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/72b6343544a7ad2354f7ebf368177bb0/jetified-firebase-iid-9.4.0/AndroidManifest.xml:54:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/72b6343544a7ad2354f7ebf368177bb0/jetified-firebase-iid-9.4.0/AndroidManifest.xml:55:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/72b6343544a7ad2354f7ebf368177bb0/jetified-firebase-iid-9.4.0/AndroidManifest.xml:55:25-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/0c0e31324b8fcb2c850bd689feb6df92/jetified-firebase-common-9.4.0/AndroidManifest.xml:7:9-11:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/0c0e31324b8fcb2c850bd689feb6df92/jetified-firebase-common-9.4.0/AndroidManifest.xml:8:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/0c0e31324b8fcb2c850bd689feb6df92/jetified-firebase-common-9.4.0/AndroidManifest.xml:10:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/0c0e31324b8fcb2c850bd689feb6df92/jetified-firebase-common-9.4.0/AndroidManifest.xml:11:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/0c0e31324b8fcb2c850bd689feb6df92/jetified-firebase-common-9.4.0/AndroidManifest.xml:9:13-58
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/0b20bf9bd5ae3b49ade95fbf244b2d6a/jetified-play-services-basement-9.4.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/0b20bf9bd5ae3b49ade95fbf244b2d6a/jetified-play-services-basement-9.4.0/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:9.4.0] /home/danish/.gradle/caches/transforms-2/files-2.1/0b20bf9bd5ae3b49ade95fbf244b2d6a/jetified-play-services-basement-9.4.0/AndroidManifest.xml:22:13-58

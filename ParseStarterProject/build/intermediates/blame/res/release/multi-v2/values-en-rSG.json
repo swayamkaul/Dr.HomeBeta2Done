@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/danish/Desktop/BonVoyageIsLive-master/ParseStarterProject/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-en-rSG/values-en-rSG.xml",
+            "map": [
+                {
+                    "source": "/home/danish/.gradle/caches/transforms-2/files-2.1/be3739168f7c088a9be025dd7f057e88/jetified-play-services-wallet-9.4.0/res/values-en-rSG/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "292",
+                        "endColumns": "103",
+                        "endOffsets": "391"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "103",
+                        "endOffsets": "154"
+                    }
+                }
+            ]
+        }
+    ]
+}

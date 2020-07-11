@@ -1,0 +1,55 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/danish/Desktop/BonVoyageIsLive-master/ParseStarterProject/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-land/values-land.xml",
+            "map": [
+                {
+                    "source": "/home/danish/.gradle/caches/transforms-2/files-2.1/80d0668019c2cff7882310cc8285750e/mediarouter-1.0.0-alpha5/res/values-land/values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,130,208",
+                        "endColumns": "74,77,74",
+                        "endOffsets": "125,203,278"
+                    },
+                    "to": {
+                        "startLines": "5,6,7",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "264,339,417",
+                        "endColumns": "74,77,74",
+                        "endOffsets": "334,412,487"
+                    }
+                },
+                {
+                    "source": "/home/danish/.gradle/caches/transforms-2/files-2.1/16de5a105d918594ea18965f8161a8bc/material-1.0.0/res/values-land/values-land.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "10",
+                        "endOffsets": "222"
+                    },
+                    "to": {
+                        "startLines": "8",
+                        "startColumns": "4",
+                        "startOffsets": "492",
+                        "endLines": "11",
+                        "endColumns": "10",
+                        "endOffsets": "659"
+                    }
+                },
+                {
+                    "source": "/home/danish/.gradle/caches/transforms-2/files-2.1/173de8c433dc5f4aca0638778cb887e6/appcompat-1.0.0/res/values-land/values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,125,196",
+                        "endColumns": "69,70,67",
+                        "endOffsets": "120,191,259"
+                    }
+                }
+            ]
+        }
+    ]
+}

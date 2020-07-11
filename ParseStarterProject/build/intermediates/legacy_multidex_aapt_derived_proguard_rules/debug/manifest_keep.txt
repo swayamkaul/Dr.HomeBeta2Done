@@ -1,0 +1,4 @@
+# Referenced at /home/arv/StudioProjects/BonVoyageIszzzzzz-2dee2c91939b1004db7284ad022f8589802dc440/ParseStarterProject/build/intermediates/merged_manifests/debug/AndroidManifest.xml:31
+-keep class androidx.core.app.CoreComponentFactory { <init>(); }
+# Referenced at /home/arv/StudioProjects/BonVoyageIszzzzzz-2dee2c91939b1004db7284ad022f8589802dc440/ParseStarterProject/build/intermediates/merged_manifests/debug/AndroidManifest.xml:31
+-keep class com.parse.starter.StarterApplication { <init>(); }
