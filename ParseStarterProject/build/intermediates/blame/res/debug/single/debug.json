@@ -244,6 +244,10 @@
         "source": "/home/arv/StudioProjects/bonvoyagedrhme/ParseStarterProject/src/main/res/font/advent_pro.xml"
     },
     {
+        "merged": "/home/arv/StudioProjects/bonvoyagedrhme/ParseStarterProject/build/intermediates/res/merged/debug/drawable_ic_share.xml.flat",
+        "source": "/home/arv/StudioProjects/bonvoyagedrhme/ParseStarterProject/src/main/res/drawable/ic_share.xml"
+    },
+    {
         "merged": "/home/arv/StudioProjects/bonvoyagedrhme/ParseStarterProject/build/intermediates/res/merged/debug/layout_activity_appointment_display_for_doctors.xml.flat",
         "source": "/home/arv/StudioProjects/bonvoyagedrhme/ParseStarterProject/src/main/res/layout/activity_appointment_display_for_doctors.xml"
     },
@@ -258,6 +262,10 @@
     {
         "merged": "/home/arv/StudioProjects/bonvoyagedrhme/ParseStarterProject/build/intermediates/res/merged/debug/layout_custom_doctorslist_layout.xml.flat",
         "source": "/home/arv/StudioProjects/bonvoyagedrhme/ParseStarterProject/src/main/res/layout/custom_doctorslist_layout.xml"
+    },
+    {
+        "merged": "/home/arv/StudioProjects/bonvoyagedrhme/ParseStarterProject/build/intermediates/res/merged/debug/drawable_ic_edit.xml.flat",
+        "source": "/home/arv/StudioProjects/bonvoyagedrhme/ParseStarterProject/src/main/res/drawable/ic_edit.xml"
     },
     {
         "merged": "/home/arv/StudioProjects/bonvoyagedrhme/ParseStarterProject/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",

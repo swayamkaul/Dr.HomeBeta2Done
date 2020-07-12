@@ -1733,6 +1733,7 @@ drawable ic_clear_black_24dp
 drawable ic_close
 drawable ic_dialog_close_dark
 drawable ic_dialog_close_light
+drawable ic_edit
 drawable ic_edit_black_24dp
 drawable ic_group_collapse_00
 drawable ic_group_collapse_01
@@ -1920,6 +1921,7 @@ drawable ic_plusone_standard_off_client
 drawable ic_plusone_tall_off_client
 drawable ic_profile
 drawable ic_settings
+drawable ic_share
 drawable ic_vol_type_speaker_dark
 drawable ic_vol_type_speaker_group_dark
 drawable ic_vol_type_speaker_group_light

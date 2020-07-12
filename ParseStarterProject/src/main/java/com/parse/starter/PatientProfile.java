@@ -128,7 +128,9 @@ public class PatientProfile extends AppCompatActivity {
         startActivity(new Intent(getApplicationContext(), HomeActivity.class));
         finish();
     }
-
+    public void shareContact(View view) {
+        Toast.makeText(PatientProfile.this, "Coming Soon", Toast.LENGTH_SHORT).show();
+    }
     public void editProfile(View view) {
         Log.i("user:",ParseUser.getCurrentUser().toString());
         if (ParseUser.getCurrentUser().get("patientOrDoctor").toString().equals("patient")) {

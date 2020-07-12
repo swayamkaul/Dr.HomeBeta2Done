@@ -4,13 +4,13 @@
     android:layout_height="match_parent"
     android:background="@color/colorBackground">
 
-    <include layout="@layout/custom_app_bar" />
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/appBar"
-        android:layout_marginTop="70dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:elevation="20dp">
+
+        <include layout="@layout/custom_app_bar"/>
 
         <com.google.android.material.appbar.CollapsingToolbarLayout
             android:layout_width="match_parent"
@@ -29,9 +29,8 @@
                     android:id="@+id/pat_imgBlur"
                     android:layout_width="wrap_content"
                     android:layout_height="300dp"
-                    android:layout_marginTop="5dp"
                     android:alpha="0.2"
-                    android:paddingTop="70dp"
+                    android:elevation="2dp"
                     android:scaleType="centerCrop"
                     android:src="@drawable/pat"
                     app:layout_collapseMode="parallax"
@@ -49,6 +48,7 @@
                     android:scaleType="centerCrop"
                     android:src="@drawable/pat"
                     app:layout_collapseMode="pin"
+                    app:civ_border_width="3dp"
                     app:layout_collapseParallaxMultiplier="0.7"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -78,12 +78,13 @@
                 android:layout_marginTop="5dp"
                 android:layout_marginEnd="10dp"
                 android:elevation="15dp"
+                android:paddingVertical="10dp"
                 android:outlineAmbientShadowColor="@color/colorBlack"
                 android:backgroundTint="@color/colorBlue"
                 app:cardCornerRadius="10dp">
 
                 <LinearLayout
-                    android:paddingTop="15dp"
+                    android:paddingVertical="15dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
@@ -92,7 +93,7 @@
                         android:id="@+id/pat_name"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:fontFamily="casual"
+                        android:fontFamily="@font/advent_pro"
                         android:gravity="center"
                         android:text=""
                         android:textColor="@color/colorPink"
@@ -103,7 +104,7 @@
                         android:id="@+id/pat_age"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:fontFamily="casual"
+                        android:fontFamily="@font/advent_pro"
                         android:gravity="center"
                         android:text=""
                         android:textColor="@color/colorBlack"
@@ -114,7 +115,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_marginTop="20dp"
-                        android:fontFamily="casual"
+                        android:fontFamily="@font/advent_pro"
                         android:paddingLeft="30dp"
                         android:text=""
                         android:textColor="@color/colorBlack"
@@ -124,7 +125,7 @@
                         android:id="@+id/pat_loc"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:fontFamily="casual"
+                        android:fontFamily="@font/advent_pro"
                         android:text=""
                         android:textColor="@color/colorBlack"
                         android:textSize="25sp"
@@ -141,8 +142,9 @@
         android:layout_margin="@dimen/activity_horizontal_margin"
         android:backgroundTint="@color/colorPink"
         app:layout_anchor="@id/appBar"
-        android:src="@drawable/ic_back_40"
-        app:layout_anchorGravity="bottom|end" />
+        android:src="@drawable/ic_share"
+        android:onClick="shareContact"
+        app:layout_anchorGravity="bottom|start" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/editFab"
@@ -152,7 +154,7 @@
         android:backgroundTint="@color/colorPink"
         app:layout_anchor="@id/appBar"
         android:onClick="editProfile"
-        app:layout_anchorGravity="bottom|start"
-        android:src="@drawable/ic_media_pause_dark"/>
+        app:layout_anchorGravity="bottom|end"
+        android:src="@drawable/ic_edit"/>
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -308,7 +308,7 @@
                                 <PersistentState>
                                   <option name="values">
                                     <map>
-                                      <entry key="url" value="jar:file:/home/arv/android-studio/plugins/android/lib/android.jar!/images/material/icons/materialicons/close/baseline_close_24.xml" />
+                                      <entry key="url" value="jar:file:/home/arv/android-studio/plugins/android/lib/android.jar!/images/material/icons/materialicons/share/baseline_share_24.xml" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -319,7 +319,7 @@
                         <option name="values">
                           <map>
                             <entry key="color" value="ffffff" />
-                            <entry key="outputName" value="ic_close" />
+                            <entry key="outputName" value="ic_share" />
                           </map>
                         </option>
                       </PersistentState>
