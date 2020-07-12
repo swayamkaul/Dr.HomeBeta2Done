@@ -1,6 +1,7 @@
 package com.parse.starter;
 
 import android.annotation.SuppressLint;
+import android.app.Activity;
 import android.app.AlarmManager;
 import android.app.AlertDialog;
 import android.app.NotificationChannel;
@@ -51,10 +52,12 @@ public class Booking extends AppCompatActivity {
     public static int pos;
     static Date today;
     static Date tomorrow;
+    static String choosenDate;
     Bitmap image;
     LoadingScreen loadingScreen;
     static ArrayList<String> slots;
     static ArrayList<String> avail;
+    static ArrayList<String> Actualavail;
     ArrayList<String> timeavail;
     static DateFormat date;
     static JSONArray jsonArray, jsonArray2;
@@ -77,6 +80,7 @@ public class Booking extends AppCompatActivity {
         loadingScreen = new LoadingScreen(this);
         loadingScreen.startloadingScreen();
         avail = new ArrayList<>();
+        Actualavail = new ArrayList<>();
         docname = findViewById(R.id.doctorName);
         docImage = findViewById(R.id.doctorImage);
         datePicker = findViewById(R.id.datepicker);
@@ -98,9 +102,14 @@ public class Booking extends AppCompatActivity {
         Toast.makeText(this, "Scroll down if there are more slots", Toast.LENGTH_LONG);
         callRecyclerView();
         Date = findViewById(R.id.date);
-
-        getData();
         getDate();
+        try {
+            getData();
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
+
+
 
 
     }
@@ -127,6 +136,24 @@ public class Booking extends AppCompatActivity {
                     Log.i(this.toString(), e.getMessage());
             }
         });
+
+    }
+    public void getDocSlots() throws ParseException {
+        avail.removeAll(avail);
+        avail.addAll(Actualavail);
+        ParseQuery<ParseObject> slotquery = new ParseQuery<>("Appointments");
+        slotquery.whereEqualTo("Doctor",doctor);
+        slotquery.whereEqualTo("Day",Date.getText());
+        List<ParseObject> objects= slotquery.find();
+        if(objects.size()>0){
+            for(ParseObject object : objects)
+                avail.set(slots.indexOf(object.get("Time").toString()),"Booked");}
+
+        Log.i("Avail",avail.toString());
+
+
+        bookingAdapter.notifyDataSetChanged();
+        loadingScreen.stoploadingScreen();
 
     }
 //    public void getTimeslots(){
@@ -202,40 +229,71 @@ public class Booking extends AppCompatActivity {
         date = new SimpleDateFormat("dd MMMM", Locale.getDefault());
     }
 
-    public void getData() {
+    public void getData() throws ParseException {
         query.whereEqualTo("DoctorName", doctor);
-        query.findInBackground(new FindCallback<ParseObject>() {
-            @Override
-            public void done(List<ParseObject> objects, ParseException e) {
-                if (e == null && objects.size() > 0)
-                    jsonArray = objects.get(0).getJSONArray("TimeSlot");
-                else
-                    Log.i("Error", e.getMessage());
-                for (int i = 0; i < jsonArray.length(); i++) {
-                    try {
-                        JSONObject obj = (JSONObject) jsonArray.get(i);
-                        slots.add(obj.keys().next());
-                        avail.add((String) obj.get(slots.get(i)));
-                    } catch (JSONException ex) {
-                        ex.printStackTrace();
-                    }
-                }
-                double current_time = Double.parseDouble(new SimpleDateFormat("HH:mm").format(new Date()).replace(':', '.'));
-                for (int i = 0; i < slots.size(); i++) {
-                    if (current_time > Double.parseDouble(slots.get(i).substring(0, slots.get(i).indexOf('-')).replace(':', '.')) && current_time < Double.parseDouble(slots.get(slots.size() - 1).substring(0, slots.get(slots.size() - 1).indexOf('-')).replace(':', '.')))
-                        timeavail.add("Unavailable");
-                    else
-                        timeavail.add("Available");
-                    String day = (current_time < Double.parseDouble(slots.get(slots.size() - 1).substring(0, slots.get(slots.size() - 1).indexOf('-')).replace(':', '.')) ? "Today" : "Tommorow");
-                    if (day.equals("Today"))
-                        Date.setText(date.format(today).toUpperCase());
-                    else
-                        Date.setText(date.format(tomorrow).toUpperCase());
-                }
-                bookingAdapter.notifyDataSetChanged();
-                loadingScreen.stoploadingScreen();
-            }
-        });
+        List<ParseObject> objects = query.find();
+        if(objects.size()>0)
+            jsonArray = objects.get(0).getJSONArray("TimeSlot");
+        for (int i = 0; i < jsonArray.length(); i++) {
+        try {
+            JSONObject obj = (JSONObject) jsonArray.get(i);
+            slots.add(obj.keys().next());
+            Actualavail.add((String) obj.get(slots.get(i)));
+        }
+        catch (JSONException ex) {
+            ex.printStackTrace();
+        }
+        }
+        double current_time = Double.parseDouble(new SimpleDateFormat("HH:mm").format(new Date()).replace(':', '.'));
+        for (int i = 0; i < slots.size(); i++) {
+            if (current_time > Double.parseDouble(slots.get(i).substring(0, slots.get(i).indexOf('-')).replace(':', '.')) && current_time < Double.parseDouble(slots.get(slots.size() - 1).substring(0, slots.get(slots.size() - 1).indexOf('-')).replace(':', '.')))
+                timeavail.add("Unavailable");
+            else
+                timeavail.add("Available");
+
+
+
+
+
+
+
+//        query.findInBackground(new FindCallback<ParseObject>() {
+//            @Override
+//            public void done(List<ParseObject> objects, ParseException e) {
+//                if (e == null && objects.size() > 0)
+//                    jsonArray = objects.get(0).getJSONArray("TimeSlotsFinal");
+//                else
+//                    Log.i("Error", e.getMessage());
+//                for (int i = 0; i < jsonArray.length(); i++) {
+//                    try {
+//                        JSONObject obj = (JSONObject) jsonArray.get(i);
+//                        slots.add(obj.keys().next());
+//                        Actualavail.add((String) obj.get(slots.get(i)));
+//                    } catch (JSONException ex) {
+//                        ex.printStackTrace();
+//                    }
+//                }
+//                double current_time = Double.parseDouble(new SimpleDateFormat("HH:mm").format(new Date()).replace(':', '.'));
+//                for (int i = 0; i < slots.size(); i++) {
+//                    if (current_time > Double.parseDouble(slots.get(i).substring(0, slots.get(i).indexOf('-')).replace(':', '.')) && current_time < Double.parseDouble(slots.get(slots.size() - 1).substring(0, slots.get(slots.size() - 1).indexOf('-')).replace(':', '.')))
+//                        timeavail.add("Unavailable");
+//                    else
+//                        timeavail.add("Available");
+//                    String day = (current_time < Double.parseDouble(slots.get(slots.size() - 1).substring(0, slots.get(slots.size() - 1).indexOf('-')).replace(':', '.')) ? "Today" : "Tommorow");
+//                    if (day.equals("Today"))
+//                        Date.setText(date.format(today).toUpperCase());
+//                    else
+//                        Date.setText(date.format(tomorrow).toUpperCase());
+//
+//                    getDocSlots();
+//                }
+//
+//
+//            }
+//        });
+        }
+        Date.setText(date.format(today).toUpperCase());
+        getDocSlots();
 
 
     }
@@ -317,7 +375,21 @@ public class Booking extends AppCompatActivity {
 
                             Intent intent = new Intent(getApplicationContext(), PaymentActivity.class);
                             intent.putExtra("docname", getIntent().getStringExtra("Doctor"));
+                            intent.putExtra("Time",slots.get(i));
+                            intent.putExtra("Day",Date.getText());
                             startActivity(intent);
+
+//                            avail.set(pos,"Booked");
+//                            Log.i("Position", String.valueOf(pos));
+//                            Log.i("Avail",avail.toString());
+//                            bookingAdapter.notifyDataSetChanged();
+//                            appointments = new ParseObject("Appointments");
+//                            appointments.put("Doctor",doctor);
+//                            appointments.put("Patient",ParseUser.getCurrentUser().getUsername());
+//                            appointments.put("Time",slots.get(pos));
+//                            appointments.put("Day",Date.getText());
+//                            appointments.saveInBackground();
+
 //                        createNotifications(slots.get(pos),day);
 //                        avail.set(pos,"Booked");
 //                        Log.i("Position", String.valueOf(pos));
@@ -415,9 +487,15 @@ public class Booking extends AppCompatActivity {
         alertDialogBuilder.setCancelable(false).setPositiveButton("Done", new DialogInterface.OnClickListener() {
             @SuppressLint("SetTextI18n")
             public void onClick(DialogInterface dialog, int id) {
-                Toast.makeText(getApplicationContext(), "Working", Toast.LENGTH_SHORT).show();
-                Date.setText(datePicker.getDayOfMonth() + " " + getMonth(datePicker.getMonth()));
-                getData2(getDay());
+              //  Toast.makeText(getApplicationContext(), "Working", Toast.LENGTH_SHORT).show();
+                choosenDate = datePicker.getDayOfMonth() + " " + getMonth(datePicker.getMonth()+1);
+                Date.setText(choosenDate.toUpperCase());
+                try {
+                    getDocSlots();
+                } catch (ParseException e) {
+                    e.printStackTrace();
+                }
+                //getData2(getDay());
             }
         })
                 .setNegativeButton("Cancel",
@@ -426,6 +504,7 @@ public class Booking extends AppCompatActivity {
                                 dialog.cancel();
                             }
                         });
+
         AlertDialog alertDialog = alertDialogBuilder.create();
         alertDialog.show();
     }

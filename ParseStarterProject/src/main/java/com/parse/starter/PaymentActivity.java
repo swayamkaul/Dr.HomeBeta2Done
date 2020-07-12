@@ -205,30 +205,30 @@ public class PaymentActivity extends AppCompatActivity {
                 Log.i("Position", String.valueOf(Booking.pos));
                 Log.i("Avail",Booking.avail.toString());
                Booking.bookingAdapter.notifyDataSetChanged();
-                try {
-                    Booking.jsonArray.getJSONObject(Booking.pos).put(slots.get(Booking.pos),"Booked");
-                    Booking.query.whereEqualTo("DoctorName",Booking.doctor);
-                   Booking.query.findInBackground(new FindCallback<ParseObject>() {
-                        @Override
-                        public void done(List<ParseObject> objects, ParseException e) {
-                            if(e==null && objects.size()>0){
-                                objects.get(0).put("TimeSlot",Booking.jsonArray);
-                                objects.get(0).saveInBackground();
-                            }
-                            else
-                                Log.i(this.toString(),e.getMessage());
-                        }
-                    });
+ //               try {
+//                    Booking.jsonArray.getJSONObject(Booking.pos).put(slots.get(Booking.pos),"Booked");
+//                    Booking.query.whereEqualTo("DoctorName",Booking.doctor);
+//                   Booking.query.findInBackground(new FindCallback<ParseObject>() {
+//                        @Override
+//                        public void done(List<ParseObject> objects, ParseException e) {
+//                            if(e==null && objects.size()>0){
+//                                objects.get(0).put("TimeSlot",Booking.jsonArray);
+//                                objects.get(0).saveInBackground();
+//                            }
+//                            else
+//                                Log.i(this.toString(),e.getMessage());
+//                        }
+                  //  });
                     Booking.appointments = new ParseObject("Appointments");
                     Booking.appointments.put("Doctor",Booking.doctor);
                     Booking.appointments.put("Patient",ParseUser.getCurrentUser().getUsername());
                     Booking.appointments.put("Time",slots.get(Booking.pos));
-                    Booking.appointments.put("Day",Booking.date.format(day.equals("Today")?Booking.today:Booking.tomorrow));
+                    Booking.appointments.put("Day",getIntent().getStringExtra("Day"));
                     Booking.appointments.saveInBackground();
 
-                } catch (JSONException e) {
-                    e.printStackTrace();
-                }
+//                } catch (JSONException e) {
+//                    e.printStackTrace();
+//                }
 
                ParseObject Payments = new ParseObject("PaymentsMadeToDocs");
                 Payments.put("Doctor",Booking.doctor);
