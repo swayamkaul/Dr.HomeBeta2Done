@@ -2,6 +2,7 @@ package com.parse.starter.Adapters;
 
 import android.content.Context;
 import android.graphics.Color;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -28,6 +29,7 @@ public class BookingAdapter extends RecyclerView.Adapter<BookingAdapter.ViewHold
         this.slot=spcl;
         this.avail = av;
         this.timeavail = tmav;
+        Log.i("Size", String.valueOf(avail.size()));
         this.layoutInflater = LayoutInflater.from(context);
 
         //this.onSlotClickListener = slotClickListener;
