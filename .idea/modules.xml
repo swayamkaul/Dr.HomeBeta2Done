@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/DrHome-master.iml" filepath="$PROJECT_DIR$/.idea/modules/DrHome-master.iml" group="DrHome-master" />
-      <module fileurl="file://$PROJECT_DIR$/ParseStarterProject/ParseStarterProject.iml" filepath="$PROJECT_DIR$/ParseStarterProject/ParseStarterProject.iml" group="DrHome-master/ParseStarterProject" />
+      <module fileurl="file://$PROJECT_DIR$/ParseStarterProject/ParseStarterProject.iml" filepath="$PROJECT_DIR$/ParseStarterProject/ParseStarterProject.iml" group="bonvoyagedrhme/ParseStarterProject" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/bonvoyagedrhme.iml" filepath="$PROJECT_DIR$/.idea/modules/bonvoyagedrhme.iml" group="bonvoyagedrhme" />
     </modules>
   </component>
 </project>

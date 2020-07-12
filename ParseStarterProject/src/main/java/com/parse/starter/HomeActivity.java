@@ -14,6 +14,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.annotation.TargetApi;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.Build;
@@ -56,6 +57,7 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
     private ActionBarDrawerToggle toggle;
     TextView subName, subEmail;
     CircularImageView profilePhoto;
+    SharedPreferences sharedPreferences;
 
     @RequiresApi(api = Build.VERSION_CODES.N)
     @Override
@@ -63,7 +65,9 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
         super.onCreate(savedInstanceState);
         Log.i("Activity", "USERLIST ACTIVITY !!!!!!");
         setTitle("Doc Home");
-
+        sharedPreferences = this.getSharedPreferences("Dr.Home local", MODE_PRIVATE);
+        sharedPreferences.edit().putBoolean("isLoggedIn?",true).apply();
+        Log.d("SharePreferences", String.valueOf(sharedPreferences.getBoolean("isLoggedIn?", false)));
         loadingScreen = new LoadingScreen(this);
         loadingScreen.startloadingScreen();
         setContentView(R.layout.home_screen_main);
@@ -190,12 +194,11 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
             Intent intent = new Intent(getApplicationContext(), AppointmentDisplayForPatients.class);
             intent.putExtra("Name", ParseUser.getCurrentUser().get("username").toString());
             startActivity(intent);
-        }
-        else if (id == R.id.nav_previousappointments) {
+        } else if (id == R.id.nav_previousappointments) {
             Intent intent = new Intent(getApplicationContext(), OldAppointments.class);
             intent.putExtra("Name", ParseUser.getCurrentUser().get("username").toString());
             startActivity(intent);
-        }else if (id == R.id.nav_settings) {
+        } else if (id == R.id.nav_settings) {
             Toast.makeText(this, "Settings Clicked", Toast.LENGTH_SHORT).show();
         } else if (id == R.id.nav_logout) {
             new AlertDialog.Builder(this).setIcon(android.R.drawable.ic_dialog_alert).setTitle("Log Out")

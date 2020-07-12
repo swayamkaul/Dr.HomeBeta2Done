@@ -13,6 +13,7 @@ import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
 import android.icu.util.Calendar;
@@ -69,12 +70,13 @@ public class DoctorProfileFillingActivity extends AppCompatActivity {
     ParseObject parseObject;
     boolean DP=false,AADHAR=false,LICENSE=false;
     Button DPbutton,AADHARbutton,LICENSEbutton;
-
+    SharedPreferences sharedPreferences;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_doctor_profile_filling);
         setTitle("Profile Update");
+        sharedPreferences = this.getSharedPreferences("Dr.Home local", MODE_PRIVATE);
         fullName = (EditText) findViewById(R.id.fullNameEditText);
         email = (EditText) findViewById(R.id.emailEditText);
         specialisation= (EditText) findViewById(R.id.specialisationEditText);
@@ -388,7 +390,7 @@ public class DoctorProfileFillingActivity extends AppCompatActivity {
 
         if (item.getItemId() == R.id.logout) {
             ParseUser.logOut();
-
+            sharedPreferences.edit().putBoolean("isLoggedIn?",false).apply();
             Intent intent = new Intent(getApplicationContext(), LoginActivity.class);
             startActivity(intent);
         }

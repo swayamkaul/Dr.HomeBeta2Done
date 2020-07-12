@@ -8,6 +8,7 @@
  */
 package com.parse.starter;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.appcompat.app.AppCompatActivity;
@@ -28,6 +29,8 @@ import com.parse.ParseException;
 import com.parse.ParseUser;
 import com.parse.SignUpCallback;
 
+import javax.security.auth.PrivateCredentialPermission;
+
 
 public class LoginActivity extends AppCompatActivity implements View.OnClickListener, View.OnKeyListener {
 
@@ -37,8 +40,9 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
   EditText passwordEditText;
 
   String userType = "";
-
+SharedPreferences sharedPreferences;
   public void showUserList() {
+    sharedPreferences.edit().putBoolean("isLoggedIn?", true).apply();
     Intent intent = new Intent(getApplicationContext(), HomeActivity.class);
     startActivity(intent);
   }
@@ -178,6 +182,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
     Log.i("ACTIVITY","MAIN ACTIVITY LAUNCHED!!!");
     setTitle("Sign Up / Login");
     setContentView(R.layout.activity_login);
+    sharedPreferences = this.getSharedPreferences("Dr.Home local", MODE_PRIVATE);
     loginTextView = findViewById(R.id.loginTextView);
     loginTextView.setOnClickListener(this);
     usernameEditText = findViewById(R.id.usernameEditText);

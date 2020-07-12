@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.TargetApi;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Build;
 import android.os.Bundle;
 import android.util.Log;
@@ -32,12 +33,14 @@ import java.util.Locale;
 public class AppointmentDisplayForDoctors extends AppCompatActivity {
     final ArrayList<String> patientnames = new ArrayList<String>();
     final ArrayList<String> nextDaynames  = new ArrayList<>();
+    SharedPreferences sharedPreferences;
     TextView today,nextDay;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_appointment_display_for_doctors);
         setTitle("Your Appointments");
+        sharedPreferences = this.getSharedPreferences("Dr.Home local", MODE_PRIVATE);
         today= findViewById(R.id.today);
         nextDay=findViewById(R.id.nextDay);
         Log.i("Activity", "Appointments!!!!");
@@ -162,7 +165,7 @@ public class AppointmentDisplayForDoctors extends AppCompatActivity {
 
         } else if (item.getItemId() == R.id.logout) {
             ParseUser.logOut();
-
+            sharedPreferences.edit().putBoolean("isLoggedIn?", false).apply();
             Intent intent = new Intent(getApplicationContext(), LoginActivity.class);
             startActivity(intent);
         }
