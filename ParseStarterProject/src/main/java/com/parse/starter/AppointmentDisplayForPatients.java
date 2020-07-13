@@ -53,6 +53,7 @@ public class AppointmentDisplayForPatients extends AppCompatActivity {
 //        query.whereEqualTo("Day",new SimpleDateFormat("dd MMMM", Locale.getDefault()).format(new Date()));
         query.addDescendingOrder("createdAt");
 
+
         query.findInBackground(new FindCallback<ParseObject>() {
             @Override
             public void done(List<ParseObject> objects, ParseException e) {
@@ -62,7 +63,8 @@ public class AppointmentDisplayForPatients extends AppCompatActivity {
 
                         double current_time = Double.parseDouble(new SimpleDateFormat("HH:mm").format(new Date()).replace(':', '.'));
                         double slot_starting_time = Double.parseDouble(object.get("Time").toString().substring(0, object.get("Time").toString().indexOf('-')).replace(':', '.'));
-                        if (object.getString("Day").equals(new SimpleDateFormat("dd MMMM", Locale.getDefault()).format(new Date()))) {
+                        if (object.getString("Day").equals(new SimpleDateFormat("dd MMMM", Locale.getDefault()).format(new Date()).toUpperCase())) {
+                            Log.i("Appointment","Inside");
                             today.setText(new SimpleDateFormat("dd MMMM", Locale.getDefault()).format(new Date()));
                             today.setVisibility(View.VISIBLE);
                             if (slot_starting_time <= current_time) {// true to be removed
@@ -74,9 +76,9 @@ public class AppointmentDisplayForPatients extends AppCompatActivity {
                                 doctornamesToday.add("(" + object.get("Time").toString() + ") " + object.get("Doctor").toString());
                             }
                         } else {
-                            doctornamesnextDay.add("(" + object.get("Time").toString() + ") " + object.get("Doctor").toString());
+                            doctornamesnextDay.add("(" + object.get("Time").toString() + ") " + object.get("Doctor").toString()+"              "+object.getString("Day"));
 
-                            nextDay.setText(object.getString("Day"));
+                            nextDay.setText("Future Appointments");
                             nextDay.setVisibility(View.VISIBLE);
                         }
 

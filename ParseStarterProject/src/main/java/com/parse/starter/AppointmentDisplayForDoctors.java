@@ -64,7 +64,7 @@ public class AppointmentDisplayForDoctors extends AppCompatActivity {
 
                         double current_time =Double.parseDouble(new SimpleDateFormat("HH:mm").format(new Date()).replace(':','.'));
                         double slot_starting_time =Double.parseDouble(object.get("Time").toString().substring(0,object.get("Time").toString().indexOf('-')).replace(':','.'));
-                if(object.getString("Day").equals(new SimpleDateFormat("dd MMMM", Locale.getDefault()).format(new Date()))) {
+                if(object.getString("Day").equals(new SimpleDateFormat("dd MMMM", Locale.getDefault()).format(new Date()).toUpperCase())) {
                     today.setText(new SimpleDateFormat("dd MMMM", Locale.getDefault()).format(new Date()));
                     today.setVisibility(View.VISIBLE);
                     if (slot_starting_time <= current_time ) {// true to be removed
@@ -77,9 +77,9 @@ public class AppointmentDisplayForDoctors extends AppCompatActivity {
                     }
                 }
                 else{
-                    nextDay.setText(object.getString("Day"));
+                    nextDay.setText("Future Appointments");
                     nextDay.setVisibility(View.VISIBLE);
-                    nextDaynames.add("(" + object.get("Time").toString() + ") " + object.get("Patient").toString());
+                    nextDaynames.add("(" + object.get("Time").toString() + ") " + object.get("Patient").toString()+"          "+object.getString("Day"));
 
                 }
 
