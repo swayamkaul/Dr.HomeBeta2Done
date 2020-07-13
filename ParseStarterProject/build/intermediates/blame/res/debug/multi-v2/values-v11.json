@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/swayamkaul/Desktop/Dr.HomeBeta1/ParseStarterProject/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v11/values-v11.xml",
+            "outputFile": "/home/arv/StudioProjects/bonvoyagedrhme/ParseStarterProject/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v11/values-v11.xml",
             "map": [
                 {
-                    "source": "/Users/swayamkaul/.gradle/caches/transforms-2/files-2.1/4c033d0a8bf4d9254bf8e3a79f4bbde5/jetified-play-services-appinvite-12.0.1/res/values-v11/values.xml",
+                    "source": "/home/arv/.gradle/caches/transforms-2/files-2.1/a38b6be61f36b4377e8390beaa56a6c5/jetified-play-services-appinvite-12.0.1/res/values-v11/values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",

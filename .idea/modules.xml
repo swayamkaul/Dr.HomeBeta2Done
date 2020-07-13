@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Dr.HomeBeta1.iml" filepath="$PROJECT_DIR$/.idea/modules/Dr.HomeBeta1.iml" group="Dr.HomeBeta1" />
-      <module fileurl="file://$PROJECT_DIR$/ParseStarterProject/ParseStarterProject.iml" filepath="$PROJECT_DIR$/ParseStarterProject/ParseStarterProject.iml" group="Dr.HomeBeta1/ParseStarterProject" />
+      <module fileurl="file://$PROJECT_DIR$/ParseStarterProject/ParseStarterProject.iml" filepath="$PROJECT_DIR$/ParseStarterProject/ParseStarterProject.iml" group="bonvoyagedrhme/ParseStarterProject" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/bonvoyagedrhme.iml" filepath="$PROJECT_DIR$/.idea/modules/bonvoyagedrhme.iml" group="bonvoyagedrhme" />
     </modules>
   </component>
 </project>

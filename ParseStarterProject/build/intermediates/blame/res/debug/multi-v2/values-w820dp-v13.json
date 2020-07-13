@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/swayamkaul/Desktop/Dr.HomeBeta1/ParseStarterProject/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w820dp-v13/values-w820dp-v13.xml",
+            "outputFile": "/home/arv/StudioProjects/bonvoyagedrhme/ParseStarterProject/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w820dp-v13/values-w820dp-v13.xml",
             "map": [
                 {
-                    "source": "/Users/swayamkaul/Desktop/Dr.HomeBeta1/ParseStarterProject/src/main/res/values-w820dp/dimens.xml",
+                    "source": "/home/arv/StudioProjects/bonvoyagedrhme/ParseStarterProject/src/main/res/values-w820dp/dimens.xml",
                     "from": {
                         "startLines": "12",
                         "startColumns": "4",
