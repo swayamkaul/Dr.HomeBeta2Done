@@ -14,7 +14,8 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme.NoActionBar">
-        <activity android:name=".ChatScreenPoint"></activity>
+        <activity android:name=".BankAccountDetails"></activity>
+        <activity android:name=".ChatScreenPoint" />
         <activity android:name=".PaymentActivity" />
         <activity android:name=".LoginScreen" />
         <activity android:name=".PatientProfileEditingActivity" />

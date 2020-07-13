@@ -198,7 +198,7 @@ public class DoctorProfileFillingActivity extends AppCompatActivity {
     }
 
     public void showUserList() {
-        Intent intent = new Intent(getApplicationContext(), AppointmentDisplayForDoctors.class);
+        Intent intent = new Intent(getApplicationContext(), BankAccountDetails.class);
         startActivity(intent);
    }
 

@@ -37,8 +37,8 @@ public class MessageAdapter extends RecyclerView.Adapter<MessageAdapter.ViewHold
         if(!messages.get(position).equals("null")) {
 
             Log.i("Text", "SET!!");
-            if(messages.get(position).contains(">")){
-                holder.text.setText("\t\t"+messages.get(position));
+            if(messages.get(position).contains("swayam>")){
+                holder.text.setText("\t\t"+messages.get(position).substring(messages.get(position).indexOf("swayam>")+7));
                 holder.text2.setText("\t\t"+messages.get(position));
                 holder.text2.setAlpha(0);
                 holder.text.setAlpha(1);
