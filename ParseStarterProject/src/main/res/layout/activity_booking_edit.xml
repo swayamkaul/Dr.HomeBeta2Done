@@ -148,16 +148,15 @@
             android:layout_height="400dp">
 
             <ScrollView
+                android:id="@+id/scrollView2"
                 android:layout_width="match_parent"
                 android:layout_height="400dp"
-                android:paddingVertical="20dp"
                 android:paddingHorizontal="10dp"
-                app:layout_constraintBottom_toBottomOf="parent"
+                android:paddingVertical="20dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.0">
+                app:layout_constraintTop_toBottomOf="@+id/button3">
 
                 <androidx.recyclerview.widget.RecyclerView
                     android:id="@+id/BookingRecyclerView"
@@ -170,20 +169,28 @@
                     app:layout_constraintTop_toTopOf="parent"
                     app:layout_constraintVertical_bias="0.0" />
             </ScrollView>
-        </androidx.constraintlayout.widget.ConstraintLayout>
 
-        <Button
-            android:id="@+id/button3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="15dp"
-            android:background="@drawable/button_rounded"
-            android:textSize="20sp"
-            android:fontFamily="@font/advent_pro"
-            android:onClick="book"
-            android:text="Book"
-            android:textColor="@color/colorWhite" />
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="162dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginEnd="161dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button_rounded"
+                android:fontFamily="@font/advent_pro"
+                android:onClick="book"
+                android:text="Book"
+                android:textColor="@color/colorWhite"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

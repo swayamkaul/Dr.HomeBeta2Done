@@ -364,7 +364,7 @@ public class Booking extends AppCompatActivity {
             new AlertDialog.Builder(this)
                     .setIcon(android.R.drawable.ic_dialog_alert)
                     .setTitle("Are Sure?")
-                    .setMessage("You will be booking a session at " + slots.get(pos) + " " + day)
+                    .setMessage("You will be booking a session at " + slots.get(pos) + " on " + Date.getText())
                     .setPositiveButton("Ok", new DialogInterface.OnClickListener() {
                         @RequiresApi(api = Build.VERSION_CODES.N)
                         @Override
