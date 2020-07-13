@@ -1720,6 +1720,7 @@ drawable design_password_eye
 drawable design_snackbar_background
 drawable doc
 drawable doc_negative
+drawable docicon
 drawable doctor
 drawable doctor_patient
 drawable doctoricon

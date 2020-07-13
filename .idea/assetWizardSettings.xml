@@ -67,6 +67,7 @@
                                           <PersistentState>
                                             <option name="values">
                                               <map>
+                                                <entry key="color" value="000000" />
                                                 <entry key="imagePath" value="/tmp/ic_android_black_24dp.xml" />
                                               </map>
                                             </option>
@@ -79,8 +80,8 @@
                                             <option name="values">
                                               <map>
                                                 <entry key="color" value="000000" />
-                                                <entry key="imagePath" value="$PROJECT_DIR$/../Images/doc_negative.png" />
-                                                <entry key="scalingPercent" value="54" />
+                                                <entry key="imagePath" value="$PROJECT_DIR$/ParseStarterProject/src/main/res/drawable/docicon.png" />
+                                                <entry key="scalingPercent" value="66" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -113,8 +114,7 @@
                                   <option name="values">
                                     <map>
                                       <entry key="backgroundAssetType" value="COLOR" />
-                                      <entry key="backgroundColor" value="000000" />
-                                      <entry key="legacyIconShape" value="CIRCLE" />
+                                      <entry key="backgroundColor" value="0f7986" />
                                     </map>
                                   </option>
                                 </PersistentState>

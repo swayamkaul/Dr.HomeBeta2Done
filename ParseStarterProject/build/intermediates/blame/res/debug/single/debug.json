@@ -112,6 +112,18 @@
         "source": "/home/arv/StudioProjects/bonvoyagedrhme/ParseStarterProject/src/main/res/drawable/shape_incoming_message.xml"
     },
     {
+        "merged": "/home/arv/StudioProjects/bonvoyagedrhme/ParseStarterProject/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/home/arv/StudioProjects/bonvoyagedrhme/ParseStarterProject/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/arv/StudioProjects/bonvoyagedrhme/ParseStarterProject/build/intermediates/res/merged/debug/drawable_docicon.png.flat",
+        "source": "/home/arv/StudioProjects/bonvoyagedrhme/ParseStarterProject/src/main/res/drawable/docicon.png"
+    },
+    {
+        "merged": "/home/arv/StudioProjects/bonvoyagedrhme/ParseStarterProject/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "/home/arv/StudioProjects/bonvoyagedrhme/ParseStarterProject/src/main/res/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
         "merged": "/home/arv/StudioProjects/bonvoyagedrhme/ParseStarterProject/build/intermediates/res/merged/debug/drawable_shape_outcoming_message.xml.flat",
         "source": "/home/arv/StudioProjects/bonvoyagedrhme/ParseStarterProject/src/main/res/drawable/shape_outcoming_message.xml"
     },
@@ -234,6 +246,10 @@
     {
         "merged": "/home/arv/StudioProjects/bonvoyagedrhme/ParseStarterProject/build/intermediates/res/merged/debug/drawable_ic_settings.xml.flat",
         "source": "/home/arv/StudioProjects/bonvoyagedrhme/ParseStarterProject/src/main/res/drawable/ic_settings.xml"
+    },
+    {
+        "merged": "/home/arv/StudioProjects/bonvoyagedrhme/ParseStarterProject/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/home/arv/StudioProjects/bonvoyagedrhme/ParseStarterProject/src/main/res/mipmap-hdpi/ic_launcher_round.png"
     },
     {
         "merged": "/home/arv/StudioProjects/bonvoyagedrhme/ParseStarterProject/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
