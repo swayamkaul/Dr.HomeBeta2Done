@@ -2431,8 +2431,6 @@ id parent_matrix
 id passwordEditText
 id password_toggle
 id pat_age
-id pat_img
-id pat_imgBlur
 id pat_loc
 id pat_name
 id pat_num
