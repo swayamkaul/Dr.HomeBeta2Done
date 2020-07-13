@@ -102,6 +102,8 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
 
     public void loadDP() {
         ParseUser currentUser = ParseUser.getCurrentUser();
+        String userType = currentUser.getString("patientOrDoctor");
+        if(userType.equals("Doctor")){
         final ParseFile profileImage = currentUser.getParseFile("DP");
         profileImage.getDataInBackground(new GetDataCallback() {
             public void done(byte[] data, ParseException e) {
@@ -115,6 +117,9 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
                 }
             }
         });
+        }
+        else
+            profilePhoto.setImageResource(R.drawable.login);
     }
 
     public void addImagesAndSpecialities() {

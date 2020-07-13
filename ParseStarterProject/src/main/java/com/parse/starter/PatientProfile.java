@@ -26,7 +26,6 @@ import java.util.List;
 public class PatientProfile extends AppCompatActivity {
 
     TextView pat_Name, pat_Phone, pat_Loc, pat_Age;
-    ImageView pat_Img, pat_ImgBlur;
     String PatientName="";
 
     @Override
@@ -77,8 +76,6 @@ public class PatientProfile extends AppCompatActivity {
 
     private void linkLayoutFeatures() {
         pat_Name = findViewById(R.id.pat_name);
-        pat_Img = findViewById(R.id.pat_img);
-        pat_ImgBlur = findViewById(R.id.pat_imgBlur);
         pat_Loc = findViewById(R.id.pat_loc);
         pat_Phone = findViewById(R.id.pat_num);
         pat_Age = findViewById(R.id.pat_age);

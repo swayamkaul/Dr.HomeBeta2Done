@@ -14,7 +14,7 @@
         android:layout_marginTop="5dp"
         android:focusable="true"
         android:focusableInTouchMode="true"
-        app:passwordToggleEnabled="true">
+      >
 
         <EditText
             android:id="@+id/fullNameEditText"

@@ -1720,6 +1720,7 @@ drawable design_password_eye
 drawable design_snackbar_background
 drawable doc
 drawable doc_negative
+drawable docicon
 drawable doctor
 drawable doctor_patient
 drawable doctoricon
@@ -2031,6 +2032,7 @@ font audiowide
 id ALT
 id BOTTOM_END
 id BOTTOM_START
+id BankNameEditText
 id BookingRecyclerView
 id BookinkLinearLayout
 id CTRL
@@ -2076,6 +2078,8 @@ id accessibility_custom_action_6
 id accessibility_custom_action_7
 id accessibility_custom_action_8
 id accessibility_custom_action_9
+id accountHolderNameEditText
+id accountNumberEditText
 id action0
 id action_bar
 id action_bar_activity_content
@@ -2273,6 +2277,7 @@ id icon_only
 id icon_uri
 id icon_view
 id ifRoom
+id ifscEditText
 id image
 id imageViewDoctor
 id imageViewDoctorC
@@ -2431,8 +2436,6 @@ id parent_matrix
 id passwordEditText
 id password_toggle
 id pat_age
-id pat_img
-id pat_imgBlur
 id pat_loc
 id pat_name
 id pat_num
@@ -2584,6 +2587,7 @@ id unchecked
 id uniform
 id unlabeled
 id up
+id upiMobileNumberEditText
 id uploadAdharButton
 id uploadDpButton
 id uploadLicenseButton
@@ -2673,6 +2677,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_appointment_display_for_doctors
 layout activity_appointment_display_for_patients
+layout activity_bank_account_details
 layout activity_booking
 layout activity_booking_calendar
 layout activity_booking_edit

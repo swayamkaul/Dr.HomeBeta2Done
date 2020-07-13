@@ -136,7 +136,7 @@ public class ChatScreenPoint extends AppCompatActivity {
 
                             if (!message.getString("sender").equals(ParseUser.getCurrentUser().getUsername())) {
 
-                                messageContent = "> " + messageContent;
+                                messageContent = "swayam>" + messageContent;
 
                             }
 
@@ -197,7 +197,7 @@ public class ChatScreenPoint extends AppCompatActivity {
 
                                     if (!message.getString("sender").equals(ParseUser.getCurrentUser().getUsername())) {
 
-                                        messageContent = "> " + messageContent;
+                                        messageContent = "swayam>" + messageContent;
 
                                     }
 
