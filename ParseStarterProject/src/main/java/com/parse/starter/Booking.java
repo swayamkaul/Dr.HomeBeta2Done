@@ -151,10 +151,7 @@ public class Booking extends AppCompatActivity {
                 avail.set(slots.indexOf(object.get("Time").toString()),"Booked");}
 
         Log.i("Avail",avail.toString());
-        if(Date.getText().equals(date.format(today).toUpperCase()))
-                onCurrentDay = true;
-        else
-            onCurrentDay= false;
+        onCurrentDay = Date.getText().equals(date.format(today).toUpperCase());
 
         bookingAdapter.notifyDataSetChanged();
         loadingScreen.stoploadingScreen();
