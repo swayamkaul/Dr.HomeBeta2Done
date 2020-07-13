@@ -151,10 +151,7 @@ public class Booking extends AppCompatActivity {
                 avail.set(slots.indexOf(object.get("Time").toString()),"Booked");}
 
         Log.i("Avail",avail.toString());
-        if(Date.getText().equals(date.format(today).toUpperCase()))
-                onCurrentDay = true;
-        else
-            onCurrentDay= false;
+        onCurrentDay = Date.getText().equals(date.format(today).toUpperCase());
 
         bookingAdapter.notifyDataSetChanged();
         loadingScreen.stoploadingScreen();
@@ -228,8 +225,6 @@ public class Booking extends AppCompatActivity {
     public void getDate() {
         Calendar calendar = Calendar.getInstance();
         today = calendar.getTime();
-        calendar.add(Calendar.DAY_OF_YEAR, 1);
-        tomorrow = calendar.getTime();
         date = new SimpleDateFormat("dd MMMM", Locale.getDefault());
     }
 
@@ -249,13 +244,12 @@ public class Booking extends AppCompatActivity {
         }
         }
         double current_time = Double.parseDouble(new SimpleDateFormat("HH:mm").format(new Date()).replace(':', '.'));
+        Log.i("Current time",Double.toString(current_time));
         for (int i = 0; i < slots.size(); i++) {
-            if (current_time > Double.parseDouble(slots.get(i).substring(0, slots.get(i).indexOf('-')).replace(':', '.')) && current_time < Double.parseDouble(slots.get(slots.size() - 1).substring(0, slots.get(slots.size() - 1).indexOf('-')).replace(':', '.')))
+            if (current_time > Double.parseDouble(slots.get(i).substring(0, slots.get(i).indexOf('-')).replace(':', '.')) && current_time <24.00)
                 timeavail.add("Unavailable");
             else
                 timeavail.add("Available");
-
-
 
 
 
@@ -331,8 +325,7 @@ public class Booking extends AppCompatActivity {
                     String day = (current_time < Double.parseDouble(slots.get(slots.size() - 1).substring(0, slots.get(slots.size() - 1).indexOf('-')).replace(':', '.')) ? "Today" : "Tommorow");
                     if (day.equals("Today"))
                         Date.setText(date.format(today).toUpperCase());
-                    else
-                        Date.setText(date.format(tomorrow).toUpperCase());
+
                 }
                 bookingAdapter.notifyDataSetChanged();
                 loadingScreen.stoploadingScreen();
