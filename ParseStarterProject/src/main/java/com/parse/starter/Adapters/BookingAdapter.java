@@ -47,7 +47,7 @@ public class BookingAdapter extends RecyclerView.Adapter<BookingAdapter.ViewHold
 
         holder.text.setText(slot.get(position));
         //Log.i("Position"+String.valueOf(position),timeavail.get(position));
-        if(timeavail.get(position).equals("Available"))
+        if(timeavail.get(position).equals("Available")|| !Booking.onCurrentDay)
             holder.availability.setText(avail.get(position));
         else
             holder.availability.setText(timeavail.get(position));
@@ -59,7 +59,7 @@ public class BookingAdapter extends RecyclerView.Adapter<BookingAdapter.ViewHold
                 row_index=position;
                 notifyDataSetChanged();
             }});
-        if(row_index==position||timeavail.get(position).equals("Unavailable") || !avail.get(position).equals("Available"))
+        if((row_index==position||(timeavail.get(position).equals("Unavailable") && Booking.onCurrentDay )|| !avail.get(position).equals("Available")) )
             holder.layout.setBackgroundColor(Color.parseColor("#f7e1d3"));
 
         else

@@ -52,6 +52,7 @@ public class Booking extends AppCompatActivity {
     public static int pos;
     static Date today;
     static Date tomorrow;
+    public static boolean onCurrentDay;
     static String choosenDate;
     Bitmap image;
     LoadingScreen loadingScreen;
@@ -150,7 +151,10 @@ public class Booking extends AppCompatActivity {
                 avail.set(slots.indexOf(object.get("Time").toString()),"Booked");}
 
         Log.i("Avail",avail.toString());
-
+        if(Date.getText().equals(date.format(today).toUpperCase()))
+                onCurrentDay = true;
+        else
+            onCurrentDay= false;
 
         bookingAdapter.notifyDataSetChanged();
         loadingScreen.stoploadingScreen();
@@ -375,7 +379,7 @@ public class Booking extends AppCompatActivity {
 
                             Intent intent = new Intent(getApplicationContext(), PaymentActivity.class);
                             intent.putExtra("docname", getIntent().getStringExtra("Doctor"));
-                            intent.putExtra("Time",slots.get(i));
+                            intent.putExtra("Time",slots.get(pos));
                             intent.putExtra("Day",Date.getText());
                             startActivity(intent);
 
